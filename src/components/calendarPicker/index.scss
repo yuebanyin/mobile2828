@@ -1,0 +1,39 @@
+.bx-calendar-popup-box {
+  width: 1080px;
+  height: 1180px;
+  border-radius: 30px 30px 0px 0px;
+}
+
+.bx-calendar-close-box {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+.bx-calendar-cell-normal {
+  color: var(--bx-primary-text-color);
+  background-color: none;
+}
+
+.bx-calendar-cell-disable {
+  color: var(--bx-content-tips-color);
+  background-color: none;
+}
+
+.bx-calendar-cell-hover {
+  color: var(--bx-primary-text-color);
+  background-color: var(--bx-main-background-color);
+  border-radius: 50px;
+}
+
+.bx-calendar-cell-click {
+  color: var(--bx-body-background-color);
+  background-color: var(--bx-primary-color);
+  border-radius: 50px;
+}
+
+.bx-calendar-cell-select {
+  color: var(--bx-primary-color);
+  background-color: var(--bx-service-bg-color);
+  border-radius: 50px;
+}

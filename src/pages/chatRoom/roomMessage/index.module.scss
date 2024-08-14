@@ -1,0 +1,29 @@
+.top-redpacket {
+  top: 627px;
+}
+
+@mixin chat-ab-png {
+  width: 92px;
+  height: 92px;
+}
+
+.pf-box-png {
+  bottom: 100px;
+  right: 18px;
+  width: 92px;
+  min-height: 222px;
+}
+
+.down-drop {
+  @include chat-ab-png;
+}
+
+.clear-record {
+  @include chat-ab-png;
+  margin-top: 38px;
+}
+
+.service-1 {
+  @include chat-ab-png;
+  margin-top: 38px;
+}

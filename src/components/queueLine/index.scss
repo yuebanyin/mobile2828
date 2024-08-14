@@ -1,0 +1,25 @@
+
+.queueLine{
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  background: var(--bx-body-background-color);
+  &-small{
+    height: 160px;
+    padding: 0 30px;
+    border-radius: 30px;
+  }
+  &-middle{
+    height: 200px;
+    padding: 0 60px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 6px var(--bx-lineBox-shadow);
+  }
+  &-large{
+    height: 238px;
+    padding: 0 53px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 6px var(--bx-lineBox-shadow);
+  }
+}

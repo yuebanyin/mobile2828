@@ -1,0 +1,26 @@
+.bx-balance {
+  font-size: 44px;
+  line-height: 54px;
+  margin: 0 50px;
+  padding: 20px 40px;
+  border-radius: 30px;
+  width: 980px;
+  height: 370px;
+  box-shadow: 0px 6px 12px 0px rgba(37, 37, 37, 0.20);
+  &-1 {
+    padding-top: 30px;
+    display: flex;
+    justify-content:flex-start ;
+  }
+  &-2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 96px;
+    line-height: 115px;
+  }
+  &-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,21 @@
+.record-detail {
+  width: 100%;
+  height: 146px;
+  background-color: var(--bx-body-background-color);
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  color: var(--bx-primary-text-color);
+  &-divider {
+    border-top: 2px solid var(--bx-tip-background-color);
+  }
+  &-striped {
+    background-color: var(--bx-main-alternate-color);
+  }
+  &-header {
+    color: var(--bx-content-assist-color);
+    border-top: none;
+  }
+}

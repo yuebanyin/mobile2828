@@ -1,0 +1,44 @@
+.refresh {
+  width: 110px;
+  height: 50px;
+  border: 1px solid var(--bx-primary-color);
+}
+.top-border {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.bottom-border {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.lt-border {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+//右下样式
+.grid-border {
+  border-right: 1px solid var(--bx-tip-background-color);
+  border-bottom: 1px solid var(--bx-tip-background-color);
+}
+
+.bx-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.bx-grid > * {
+  flex-basis: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .bx-grid > * {
+    flex-basis: 50%;
+  }
+}
+
+.btn-font-size {
+  font-size: 44px!important;
+}

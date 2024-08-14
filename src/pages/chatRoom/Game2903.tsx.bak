@@ -1,0 +1,119 @@
+import { observer } from 'mobx-react-lite';
+import { useEffect } from 'react';
+import { HorizolScroll, Img } from '@/components';
+import { useGlobalStore } from '@/mobx';
+import { GameRoute, NetCommonRoute, NetData } from '@/engine/ctrl/NetRoute';
+import { Game2903 } from '@/engine/game/pc/2903/Index';
+import { CMD_2903 } from '@/engine/game/pc/2903/CMD_2903';
+
+const list = ['开发和服务于移动 Web 界面的企业级产品', '1开发和服务于移动 Web 界面的企业级产品'];
+
+const url = 'ws://20.187.121.211:10015';
+// const url = 'ws://192.168.3.11:10015';
+function ChatRoom() {
+  const { token } = useGlobalStore();
+
+  /**
+   * @description: 网络回调
+   * @param {NetData} msg
+   * @param {Game2903} cc 第二参数可以拿
+   * @return {*}
+   */
+  const netMessage = (msg: NetData, cc:Game2903): any => {
+    switch (msg.dateType) {
+      case NetCommonRoute.loginSuccess: //data:CMD_CRS_LogonSuccess
+        console.log(msg.data);
+        cc.postGameScene();
+        break;
+      case NetCommonRoute.systemMessage: //data:CMD_CRS_SystemMessage
+        console.log(msg.data);
+        break;
+      case NetCommonRoute.webSocketClose:
+        console.log('网络关闭');
+        break;
+      case NetCommonRoute.webSocketReconnect:
+        console.log('重连失败');
+        break;
+      default:
+    }
+  };
+
+  /**
+   * @description: 游戏网络逻辑
+   * @param {NetData} msg
+   * @param {Game2903} cc
+   * @return {*}
+   */  
+  const gameNetMessage = (msg:NetData, cc:Game2903) => {
+    switch (msg.dateType) {
+      case GameRoute.refreshBaseConfig:
+        console.log('刷新配置:', msg.data);
+        break;
+      case GameRoute.gameScenConfig:
+        console.log('场景配置:', msg.data); 
+        // eslint-disable-next-line no-case-declarations
+        const scene = msg.data as CMD_2903.CMD_S_GameScene;
+        // eslint-disable-next-line no-case-declarations
+        const betScore = new CMD_2903.CMD_C_PlaceBet();
+        console.log(betScore.size());
+        betScore.cPeriodNumber.value = scene.szPeriodNumber.value;
+        betScore.tagUserBetInfo[0].cbBetMainType.value = 0;
+        betScore.tagUserBetInfo[0].cbBetSubType.value = 1;
+        betScore.tagUserBetInfo[0].lBetScore.value = 100000;
+        for (let index = 0; index < betScore.tagUserBetInfo[0].cbNumber.length; index += 1) {
+          betScore.tagUserBetInfo[0].cbNumber[index].value = 255;
+        }
+        betScore.tagUserBetInfo[0].dwNormalMultiple.value = scene.stGameConfig.dwMultiple.at(1); //赔率需要特殊话
+        cc.userBetScore(betScore);
+        break;
+      case GameRoute.sceneChange:
+        console.log('场景切换:', msg.data); //切换到下期下注处理
+        break;
+      case GameRoute.historyRecord:
+        console.log('开奖记录:', msg.data);
+        break;
+      case GameRoute.dynamicMultiple:
+        console.log('动态赔率:', msg.data);
+        break;
+      case GameRoute.userBetSuccess:
+        console.log('下注成功:', msg.data);
+        break;
+      case GameRoute.userBetFaild:
+        console.log('下注失败:', msg.data);
+        break;
+      case GameRoute.gameEnd:
+        console.log('游戏结束:', msg.data);
+        break;
+      default:
+    }
+  };
+
+  useEffect(() => {
+    const cc = new Game2903(url);
+    cc.dispatcherCall(netMessage, gameNetMessage);
+    cc.connect(token);
+    return () => {
+      /**
+       * @description: 切换页面时关闭
+       */
+      console.log(111);
+      cc.Close();
+    };
+  }, [token]);
+
+  return (
+    <>
+      {/* <BaseNav title='聊天室' /> */}
+      {/* 公告 */}
+      <div className='d-f ai-c jc-sb bg-int-lig p-l-50 p-r-50'>
+        <Img className='w-55' src='/home/suona.png' />
+        <HorizolScroll classNameBox='m-l-12 h-70 ai-c'>
+          <span className='color-primary'>{list.join(',')}</span>
+        </HorizolScroll>
+      </div>
+    </>
+  );
+}
+
+export default observer(ChatRoom);
+

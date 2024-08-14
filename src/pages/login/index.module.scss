@@ -1,0 +1,33 @@
+.login-wrap {
+  .login-logo-img {
+    width: 215px;
+    height: 215px;
+  }
+
+  .remebel-psd {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .login-form {
+    margin-top: 85px;
+    margin-bottom: 80px;
+  }
+  .label {
+    min-width: 56px;
+  }
+  .label-img {
+    width: 80px;
+    height: 80px;
+    top: -18px;
+  }
+  .verify-code {
+    right: 40px;
+  }
+}
+
+.tryBtn {
+  color: var(--bx-black-sec-wds-color);
+  background: var(--bx-gradient-secondary-bg) !important;
+}

@@ -1,0 +1,16 @@
+.bx-dialog-title {
+  padding: 44px 52px;
+  color: var(--bx-primary-color);
+
+  .bx-dialog-title-close-icon {
+    color: var(--bx-primary-color);
+  }
+}
+
+.bx-dialog-footer {
+  .bx-dialog-confirm {
+    max-width: 420px;
+    margin: 0 auto;
+  }
+}
+

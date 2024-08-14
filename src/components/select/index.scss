@@ -1,0 +1,64 @@
+.select-box{
+  z-index: 99;
+  // flex: 1;
+}
+.overlay{
+  width: 100%;
+  background: #242424;
+  opacity: 0.6;
+  position: fixed;
+  left: 0;
+  // display: none;
+  &-show{
+    height: 100%;
+  }
+}
+
+
+.title-box{
+  padding: 50px 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bx-body-background-color);
+  position: relative;
+  &-border{
+    border-bottom: 2px solid var(--bx-tip-background-color) ;
+  }
+  .title-item{
+    // width: 830px;
+    display: flex;
+    align-items: center;
+    font-size: 44px;
+    line-height: 50px;
+    color: var(--bx-primary-text-color);
+    // justify-content: center; // 水平居中
+
+    //点击箭头下拉
+    .arrow-icon{
+      // width: 16px;
+      // height: 31px;
+      // font-size: 12px;
+      // margin-left: 20px;
+      color: var(--bx-icon-assist-color);
+    }
+
+    // 点击按钮类型
+    .btnCon{
+      width: 220px;
+      height: 70px;
+      margin: 10px 0 5px 0;
+      background: var(--bx-body-background-color);
+      border: 2px solid var(--bx-primary-color);
+      border-radius: 10px;
+      font-size: 40px;
+      line-height: 46px;
+      color: var(--bx-primary-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      // margin-left: 300px;
+      // position: absolute;
+    }
+  }
+}

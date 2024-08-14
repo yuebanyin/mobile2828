@@ -1,0 +1,52 @@
+.trend-chart-sidebar {
+  width: 264px;
+
+  &-title {
+    height: 150px;
+    padding: 50px 0 40px;
+  }
+  &-text {
+    padding: 16px 0;
+    height: 70px;
+  }
+}
+
+.trend-chart-number-title {
+  width: 122px;
+  margin-right: 99px;
+  padding: 17px 0;
+  height: 80px;
+  &:first-child {
+    margin-left: 28px;
+    margin-right: 70px;
+  }
+  &:last-child {
+    margin-right: 28px;
+  }
+  &-act {
+    color: var(--bx-primary-color);
+    &::after {
+      content: '';
+      position: absolute;
+      width: 114px;
+      height: 10px;
+      left: 4px;
+      bottom: 0;
+      background: var(--bx-primary-color);
+    }
+  }
+}
+
+.number-item {
+  min-width: 94px;
+  max-width: 94px;
+  height: 70px;
+  max-height: 70px;
+}
+.line-canvas {
+  top: 70px;
+}
+
+// .line-canvas-nine {
+//   width: 940px;
+// }

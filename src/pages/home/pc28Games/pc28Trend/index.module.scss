@@ -1,0 +1,57 @@
+.trend-body {
+  margin: 0 !important;
+  .goback {
+    color: var(--bx-body-background-color);
+  }
+}
+
+.trend-content {
+  margin-top: 260px;
+}
+
+.bx-title {
+  color: var(--bx-primary-text-color);
+  background-color: none;
+  font-size: 44px;
+  font-weight: 400;
+}
+
+.bx-period {
+  color: var(--bx-primary-text-color);
+  background-color: none;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.bx-time {
+  color: var(--bx-content-assist-color);
+  background-color: none;
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.analysis-scroll-hor {
+  overflow-x: scroll;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.analysis-scroll-item {
+  min-width: 150px;
+  min-height: 85px;
+}
+
+.data-analy-wrap {
+  .tab-wrap {
+    max-width: 180px;
+    min-width: 180px;
+  }
+  .table-header-bg {
+    background: var(--bx-records-bg);
+    &:nth-child(1) {
+      background: var(--bx-main-alternate-color);
+      color: var(--bx-primary-color);
+    }
+  }
+}

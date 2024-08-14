@@ -1,0 +1,131 @@
+.queue-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.queue-item {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  // width: 285px;
+  // height: 158px;
+  .success-icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
+}
+
+// 纯色按钮
+.queue-item-primary-active {
+  background-color: var(--bx-primary-color);
+  color: var(--bx-body-background-color);
+}
+.queue-item-primary-normal {
+  font-size: 40px;
+  line-height: 52px;
+  padding: 14px 75px;
+  border-radius: 10px;
+  background-color: var(--bx-primary-color);
+  color: var(--bx-body-background-color);
+}
+.queue-item-primary-large {
+  font-size: 20px;
+  line-height: 26px;
+  padding: 10px 30px;
+}
+.queue-item-primary-small {
+  font-size: 14px;
+  line-height: 18px;
+  padding: 6px 20px;
+  border-radius: 5px;
+}
+.queue-item-primary-normal-active,
+.queue-item-primary-large-active,
+.queue-item-primary-small-active {
+  // .queue-item-primary-active;
+  background-color: var(--bx-primary-color);
+  color: var(--bx-body-background-color);
+}
+// 数字展示的按钮
+.queue-item-number-normal {
+  width: 172px;
+  height: 100px;
+  color: var(--bx-primary-text-color);
+  font-size: 40px;
+  line-height: 46px;
+  background: var(--bx-main-background-color);
+  border-radius: 10px;
+
+  &:hover {
+    // .queue-item-number-normal-active;
+    background-color: var(--bx-primary-color);
+    color: var(--bx-body-background-color);
+  }
+}
+.queue-item-number-normal-active {
+  background-color: var(--bx-primary-color);
+  color: var(--bx-body-background-color);
+}
+
+// 图文展示
+.queue-item-img-text-normal {
+  // padding: 45px 90px;
+  display: flex;
+  justify-content: center;
+  width: 285px;
+  height: 158px;
+  // justify-content: flex-start;
+  border: 1px solid transparent;
+  background: var(--bx-main-background-color);
+  line-height: 69px;
+  font-size: 60px;
+  color: var(--bx-primary-text-color);
+  &:hover {
+    background-color: var(--bx-default-button-hover-background-color);
+    color: var(--bx-text-primary-color);
+  }
+}
+.queue-item-img-text-normal-active {
+  color: var(--bx-primary-color);
+  background: var(--bx-primary-light-color);
+  background-color: var(--bx-default-button-hover-background-color);
+  border-color: var(--bx-primary-color);
+  color: var(--bx-text-primary-color);
+}
+.queue-item-img-text-normal-select {
+  position: relative;
+  overflow: hidden;
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: 27px;
+    right: 27px;
+    z-index: 2;
+    width: 30px;
+    height: 20px;
+    border: 5px solid var(--bx-body-background-color);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    transform: translateX(12px) translateY(2px) rotate(314deg);
+  }
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: -20px;
+    border-bottom: 50px solid var(--bx-primary-color);
+    border-top: 20px solid var(--bx-primary-color);
+    border-left: 80px solid var(--bx-primary-color);
+    border-right: 80px solid var(--bx-primary-color);
+    transform: translateX(18px) translateY(10px) rotate(142deg);
+    z-index: 1;
+  }
+}

@@ -1,0 +1,51 @@
+
+// 未选中情况
+.rb-bg-none {
+  background: white;
+  border-left: 1px solid #E1E1E1;
+  border-bottom: 1px solid #E1E1E1;
+  // box-shadow: 0px 5px 0px #B9BFCA, 0px 2px 1px 1px rgba(193, 196, 201, 0.3), 0px 9px 2px 1px rgba(193, 196, 201, 0.4);
+} 
+
+// 选中情况
+.rb-bg-active {
+  /* 蓝黄规范/选中号码渐变色 */
+  // background: linear-gradient(180deg, #63EDE6 13.31%, #E2FFFD 89.87%);
+  background: var(--bx-gradient-number-focus-color);
+  /* 蓝黄/蓝黄选中号码阴影 */
+  // box-shadow: 0px 5px 0px #5DB6B0, 0px 2px 1px 1px rgba(193, 196, 201, 0.3), 0px 9px 2px 1px rgba(193, 196, 201, 0.4);
+}
+
+.small {
+  width: 197px;
+  height: 80px;
+}
+
+.middle {
+  width: 227px;
+  height: 113px;
+}
+
+.large {
+  width: 263px;
+  height: 140px;
+}
+
+.slarge {
+  width: 395px;
+  height: 113px;
+}
+
+
+.wsl-small {
+  width: 263px;
+  height: 80px;
+}
+
+
+.fs {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 53px
+}

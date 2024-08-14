@@ -1,0 +1,70 @@
+.sign-bg-img {
+  width: 1080px;
+  height: 1049px;
+}
+
+.sign-box-bg-img {
+  width: 1020px;
+  height: 1411px;
+  position: absolute;
+  top: 260px;
+  right: 30px;
+  left: 30px;
+}
+
+.sign-point-box {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size: 60px;
+}
+
+.sign-time-tip {
+  position: absolute;
+  top: 320px;
+  right: 80px;
+}
+
+.sign-calendar-box {
+  position: absolute;
+  top: 270px;
+  left: 45px;
+  right: 45px;
+  bottom: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.sign-now-btn {
+  width: 583px;
+  height: 169px;
+}
+
+.bx-calendar-cell-normal {
+  color: var(--bx-primary-text-color);
+  background-color: none;
+}
+
+.bx-calendar-cell-disable {
+  color: var(--bx-content-tips-color);
+  background-color: none;
+}
+
+.bx-calendar-cell-hover {
+  color: var(--bx-primary-text-color);
+  background-color: var(--bx-main-background-color);
+  border-radius: 50px;
+}
+
+.bx-calendar-cell-click {
+  color: var(--bx-body-background-color);
+  background-color: var(--bx-primary-color);
+  border-radius: 50px;
+}
+
+.bx-calendar-cell-select {
+  color: var(--bx-primary-color);
+  background-color: var(--bx-service-bg-color);
+  border-radius: 50px;
+}

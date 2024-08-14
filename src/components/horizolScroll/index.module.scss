@@ -1,0 +1,38 @@
+.scroll-box {
+  display: flex;
+  flex: 1;
+  flex-shrink: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  min-height: 40px;
+
+  .scroll-content {
+    position: absolute;
+    font-size: 40px;
+    line-height: 46px;
+    color: var(--bx-primary-text-color);
+    white-space: pre;
+  }
+
+  .scroll-content-animation {
+    animation-duration: 12s;
+    animation-name: text-scroll;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+    &:active {
+      animation-play-state: running;
+    }
+  }
+}
+
+@keyframes text-scroll {
+  0% {
+    transform: translateX(96vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

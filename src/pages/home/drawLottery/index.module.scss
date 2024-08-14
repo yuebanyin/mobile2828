@@ -1,0 +1,239 @@
+.drawMain{
+  min-height: 1920px;
+  max-height: 100%;
+}
+.bg-img{
+  width: 100vw;
+  height: calc(100vh - 150px);
+  // background-size: contain;
+
+}
+
+// 文字块
+.text-block{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 250px;
+  /* top: 143px; */
+  // position: relative;
+  justify-content: center;
+  align-items: center;
+  .title{
+    font-size: 45px;
+    color: #f2f5ff;
+  }
+  .integral{
+    font-size: 53px;
+    color: #ffef3a;
+    margin: 0 20px;
+  }
+  .tips{
+    font-size: 45px;
+    color: #920a0a;
+  }
+}
+
+// 数字
+.number-container {
+  width: 677px;
+  height: 677px;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 500px;
+}
+
+.number {
+  position: absolute;
+  // transform-origin: top center;
+  font-size: 32px;
+  // font-weight: bold;
+  white-space: nowrap;
+  transition: 3s cubic-bezier(.25,.93,.43,1);
+}
+
+.small{
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  //转盘
+  .rotate {
+    width: 677px;
+    // width: 852px;
+    margin: auto;
+    position: relative;
+    // margin-top: 400px;
+    margin-top: 495px;
+    // left: 30px;
+  }
+  .rotate1 {
+    width: 677px;
+    // width: 852px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    bottom: 338px;
+    // background: #d2fbff;
+    // margin-top: 400px;
+    // margin-top: 495px;
+    // left: 30px;
+  }
+  //指针
+  .pointer{
+    width: 172px;
+    // width: 218px;
+    margin: auto;
+    position: relative;
+    // bottom: 580px;
+    bottom: 480px;
+  }  
+  //按钮
+  .btn{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    // bottom: 190px;
+    bottom: 112px;
+    // left: 30px;
+  }
+  .btn-pointer{
+    pointer-events: none;
+  }
+  .btn-item, .btn-text{
+    width: 189px;
+    height: 106px;
+  }
+  .btn-text{
+    position: absolute;
+    top: 25px;
+    font-size: 34px;
+    text-align: center;
+    color: #d2fbff;
+    font-weight: 700;
+    &-active{
+      color: #ff1839;
+    }
+  }
+}
+
+// 底部规则
+.enter{
+  display: flex;
+  position: absolute;
+  // bottom: -8vh;
+  bottom: 0;
+  .rule{
+    width: 540px;
+  }
+  .reward{
+    width: 540px;
+  }
+}
+
+
+//遮罩层弹窗
+.pop-modle{
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: var(--bx-mask-color);
+  .pop-con{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 360px;
+    left: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .pop-big{
+    width: 792px;
+    height: 761px;
+    @extend.pop-con
+  }
+  .pop-sm{
+    width: 792px;
+    height: 526px;
+    @extend.pop-con;
+    bottom: 480px;
+  }
+
+  .content{
+    font-size: 80px;
+    line-height: 92px;
+    color: var(--bx-primary-color);
+    text-align: center;
+    margin-top: 278px;
+    .true-text{
+      font-size: 44px;
+      line-height: 50px;
+      color: var(--bx-gray-color);
+    }
+    .true-money{
+      font-size: 70px;
+      line-height: 80px;
+      color: var(--bx-main-red-color);
+    }
+  }
+}
+
+.box{
+  width: 552px;
+  height: 420px;
+  font-size: 44px;
+  line-height: 50px;
+  margin-top: 220px;
+  overflow: hidden;
+  overflow-y: auto;
+
+  .line{
+    display: flex;
+    font-size: 44px;
+    line-height: 50px;
+    margin-top: 25px;
+    white-space: nowrap;
+    // justify-content: space-between;
+
+    .times{
+      color: var(--bx-primary-color);
+    }
+    .text{
+      width: 176px;
+      margin: 0 48px;
+      color: var(--bx-gray-color);
+    }
+    .value{
+      color: var(--bx-main-red-color);
+    }
+  }
+}
+
+// 按钮部分
+.btn-line{
+  // margin-top: 200px;
+  position: absolute;
+  bottom: -190px;
+  .pop-btn{
+    width: 150px;
+    height: 150px;
+    background: var(--bx-grad-close-smbtn);
+    // box-shadow: var(--bx-sdow-smbtn);
+    border-radius: 150px;
+    .close-icon{
+      font-size: 64px;
+    }
+  }
+}
+
+

@@ -1,0 +1,86 @@
+.small-box {
+  width: 70px;
+  min-width: 70px;
+  max-width: 70px;
+  height: 32px;
+}
+
+.circle-spot {
+  width: 20px;
+  min-width: 20px;
+  min-height: 20px;
+  height: 20px;
+  border: 2px solid var(--bx-primary-color);
+  left: -10px;
+  bottom: -10px;
+  // &-ss {
+  //   bottom: -10px;
+  // }
+  // &-sig {
+  //   bottom: 10px;
+  // }
+}
+
+.circle-spot-text {
+  left: -35px;
+  top: -20px;
+}
+
+// .spot-value-ss {
+//   top: -10px;
+// }
+
+// .spot-value-sig {
+//   top: -30px;
+// }
+
+.box-y {
+  width: 7px;
+  height: 32px;
+  border-bottom: 1px solid transparent;
+  border-top: 1px solid transparent;
+  border-right: 4px solid transparent;
+}
+
+.box-x {
+  width: 70px;
+  height: 7px;
+  border-left: 1px solid transparent;
+  border-top: 4px solid transparent;
+  border-right: 1px solid transparent;
+  display: flex;
+  flex-direction: row-reverse;
+  .text {
+    width: 30px;
+    max-width: 30px;
+    min-width: 30px;
+    height: 280px;
+    top: 8px;
+    left: -20px;
+  }
+}
+
+.number-trend-box {
+  .number-trend-asset {
+    width: 62px;
+    margin-right: 16px;
+    align-self: flex-end;
+    padding-bottom: 250px;
+
+    &-number {
+      width: 80px;
+      height: 32px;
+      font-size: 28px;
+      line-height: 32px;
+    }
+  }
+
+  .number-trend-content {
+    align-self: flex-end;
+    padding-bottom: 250px;
+  }
+}
+
+.canvas-box {
+  left: 0;
+}

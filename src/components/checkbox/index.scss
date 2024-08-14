@@ -1,0 +1,16 @@
+.bx-checkbox {
+  width: 42px;
+  height: 42px;
+  border-radius: 5px;
+  border: 2px solid var(--bx-primary-color);
+}
+
+.bx-checkbox-checked {
+  background: var(--bx-primary-color);
+
+  .checkbox-icon {
+    color: var(--bx-body-background-color);
+    width: 42px;
+    height: 42px;
+  }
+}

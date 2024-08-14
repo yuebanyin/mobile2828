@@ -1,0 +1,42 @@
+// 覆盖UI库的样式
+#root {
+  // 覆盖form表单样式
+  .bx-form-wrap {
+  }
+}
+// 一些静态的不在root内
+body {
+  // toast
+  .nut-toast {
+    .nut-toast__inner {
+      background-color: var(--bx-mask-color) !important;
+      padding: 54px 28px;
+      min-width: 520px;
+      border-radius: 30px;
+      .nut-toast__text {
+        font-size: 54px;
+        line-height: 62px;
+        color: var(--bx-body-background-color);
+      }
+    }
+  }
+
+
+  // picker
+  .nut-picker-content, .nut-picker-roller,.nut-picker-item, .nut-picker-roller-item{
+    height: 150px;
+    line-height: 150px;
+  }
+  .nut-picker-indicator{
+    height: 150px;
+    line-height: 150px;
+    border: none;
+    color: var(--bx-primary-color) !important;
+  }
+}
+
+
+.popover-content-show.popover-content.popover-content--bottom{
+  width: 200px;
+  top: 80px !important;
+}

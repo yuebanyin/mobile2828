@@ -1,0 +1,24 @@
+danmu1.png
+size:1024,128
+filter:Linear,Linear
+beiji
+bounds:0,0,659,80
+offsets:1,1,662,82
+guangshu
+bounds:785,38,42,17
+offsets:3,3,48,24
+rotate:90
+sanjiao
+bounds:661,0,8,8
+offsets:1,1,10,10
+xingxing 3
+bounds:785,19,17,17
+offsets:1,2,20,20
+youjiantou
+bounds:723,10,70,60
+offsets:1,1,72,62
+rotate:90
+zoujiantou
+bounds:661,10,70,60
+offsets:1,1,72,62
+rotate:90

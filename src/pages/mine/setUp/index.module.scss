@@ -1,0 +1,127 @@
+.p-l-50 {
+  padding-right: 50px;
+}
+
+.m-l-50 {
+  margin-left: 50px;
+}
+
+.p-r-44 {
+  padding-right: 44px;
+}
+.p-r-150 {
+  padding-right: 150px;
+}
+
+.m-t-8 {
+  margin-top: 8px;
+}
+.m-t-100 {
+  margin-top: 100px;
+}
+.m-l-160 {
+  margin-left: 160px;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: var(--bx-primary-text-color);
+}
+
+.tips-title {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 50px;
+  margin-bottom: 30px;
+  color: var(--bx-primary-text-color);
+}
+
+.tips-content {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 64px;
+  color: var(--bx-content-assist-color);
+}
+
+.add-icon {
+  color: var(bx-icon-assist-color);
+}
+
+.add-text {
+  font-size: 40px;
+  line-height: 46px;
+  color: var(--bx-primary-text-color);
+  text-align: left;
+  margin-top: 40px;
+}
+
+.bank-card-name {
+  font-size: 44px;
+  line-height: 50px;
+  color: var(--bx-body-background-color);
+  margin-left: 50px;
+  text-align: left;
+  margin-top: 39px;
+}
+
+.bank-card-number {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: var(--bx-body-background-color);
+  margin-left: 50px;
+  text-align: left;
+  margin-top: 26px;
+}
+
+.bank-card-sub-title {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 39px;
+  color: var(--bx-body-background-color);
+  opacity: 0.7;
+}
+
+.bank-card-name-time {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: var(--bx-body-background-color);
+}
+
+.form-bind-bank {
+  .banklabel {
+    width: 189px;
+    min-width: 189px;
+  }
+}
+
+.form-go-pay {
+  .gopaylabel {
+    width: 189px;
+    min-width: 189px;
+  }
+}
+
+.form-create-withdraw-psw {
+  .createwithdrawlabel {
+    width: 189px;
+    min-width: 189px;
+  }
+}
+
+.form-modify-withdrawpsd {
+  .withdrawlabel {
+    width: 233px;
+    min-width: 233px;
+  }
+}
+
+.form-modify-loginpsd {
+  .loginLabel {
+    width: 233px;
+    min-width: 233px;
+  }
+}

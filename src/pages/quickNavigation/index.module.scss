@@ -1,0 +1,63 @@
+.right-mine-bg {
+  background-color: var(--bx-main-background-color) !important;
+}
+
+.right-top-item {
+  margin-right: 34px;
+  width: 734px;
+  margin-left: -6px;
+  height: 202px;
+  justify-items: start;
+  padding: 20px 20px 20px 30px;
+
+  .user-info {
+    //登录按钮
+    .l-btn {
+      border: none;
+      background-color: var(--bx-body-background-color);
+      line-height: 60px;
+      span {
+        color: var(--bx-primary-color);
+      }
+    }
+    //注册按钮
+    .r-btn {
+      border: none;
+      background-image: var(--bx-gradient-btn-secondary-color);
+      line-height: 60px;
+      span {
+        color: var(--bx-body-background-color);
+      }
+    }
+  }
+}
+
+.u-text {
+  color: var(--bx-body-background-color);
+}
+
+//用户头像大小
+.us-img {
+  width: 160px;
+  height: 166px;
+}
+
+.out-btn {
+  width: 100%;
+  line-height: 150px;
+}
+
+.theme-box {
+  .success-tag {
+    width: 32px;
+    height: 20px;
+    border: 1px solid var(--bx-body-background-color);
+    border-top-color: transparent;
+    border-right-color: transparent;
+    transform: rotateZ(-45deg) translateY(-5px) translateX(5px);
+  }
+  .change-theme-img {
+    width: 180px;
+    height: 320px;
+  }
+}

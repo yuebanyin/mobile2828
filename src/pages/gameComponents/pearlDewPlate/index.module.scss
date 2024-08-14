@@ -1,0 +1,55 @@
+.ball-box-normal-ball {
+  width: 56px;
+  height: 56px;
+  border: 1px solid var(--bx-tip-background-color);
+}
+
+.ball-box-large-ball {
+  width: 61px;
+  height: 61px;
+  border: 1px solid var(--bx-tip-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball-large-ball {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.ball-box-small-ball {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--bx-tip-background-color);
+}
+
+.ball-small-ball {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.ball-normal-ball {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.ball-box-small-circle {
+  width: 44.45px;
+  height: 44.45px;
+  border: 1px solid var(--bx-tip-background-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball-small-circle {
+  width: 34px;
+  min-width: 34px;
+  height: 34px;
+  min-height: 34px;
+  border: 2px solid;
+}

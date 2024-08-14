@@ -1,0 +1,44 @@
+.bet-dody {
+  margin: 0 !important;
+}
+
+.bet-content {
+  // height: 80vh;
+  .bet-content-title {
+    min-height: 150px;
+    .goback {
+      color: var(--bx-body-background-color);
+    }
+  }
+}
+
+.number-btn-box {
+  padding: 15px 15px 60px;
+  margin: 0 auto;
+  max-height: 1000px;
+
+  .number-button {
+    margin: 15px;
+  }
+
+  .t-large {
+    width: 176px;
+    height: 162px;
+  }
+
+  .t-nomal {
+    width: 142px;
+    height: 162px;
+  }
+}
+
+.entertained-png {
+  width: 458px;
+  height: 410px;
+}
+
+.modle-text-item {
+  width: 230px;
+  height: 80px;
+  background-color: var(--bx-primary-color);
+}

@@ -1,0 +1,40 @@
+.send-redpacket-wrap {
+  margin: 0 !important;
+  > div {
+    display: flex;
+    height: 100%;
+    overflow: hidden;
+  }
+  .send-redpacket-wrap-title {
+    margin-bottom: 50px;
+    padding: 0;
+    &-icon {
+      color: var(--bx-primary-text);
+    }
+  }
+  .send-redpacket-footer {
+    margin: 150px 0;
+  }
+
+  .send-redpacket-module {
+    .redpacket-value {
+      margin: 200px 0 20px;
+      line-height: 118px;
+    }
+  }
+
+  .send-btn {
+    width: 540px;
+    height: 140px;
+    background: #f56147;
+  }
+
+  .redpacket-form-item {
+    padding: 42px 30px;
+    border: none;
+    &-lable {
+      text-align: left;
+      text-align-last: left;
+    }
+  }
+}

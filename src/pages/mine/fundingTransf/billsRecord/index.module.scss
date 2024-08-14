@@ -1,0 +1,49 @@
+.bx-r-record-text {
+  height: 100%;
+  line-height: 60px;
+  text-align: center;
+  color: var(--bx-primary-text-color);
+}
+.bx-r-record-date {
+  height: 100%;
+  line-height: 60px;
+  text-align: center;
+  font-size: 34px;
+  color: var(--bx-content-assist-color);
+}
+
+.bx-record-item {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.bx-r-divider {
+  border-bottom: 1px solid var(--bx-tip-background-color);
+}
+
+.bx-r-row-item {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.bx-r-red-value {
+  height: 100%;
+  line-height: 60px;
+  text-align: center;
+  color: var(--bx-main-red-color);
+}
+
+.bx-r-green-value {
+  height: 100%;
+  line-height: 60px;
+  text-align: center;
+  color: var(--bx-main-green-color);
+}

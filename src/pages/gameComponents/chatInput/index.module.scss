@@ -1,0 +1,83 @@
+.chat-input-wrap {
+  padding: 16px 20px;
+  max-width: 100%;
+}
+.chat-input {
+  padding: 26px 16px;
+  min-height: 100px;
+
+  textarea {
+    line-height: 44px;
+    resize: none;
+    max-height: 133px;
+    padding: 0;
+    vertical-align: middle;
+  }
+}
+.chat-emot,
+.chat-more {
+  width: 100px;
+  min-width: 100px;
+  max-width: 100px;
+  height: 100px;
+}
+.chat-send {
+  width: 148px;
+  max-width: 148px;
+  min-width: 148px;
+  height: 100px;
+}
+.tz-btn {
+  height: 100px;
+  max-width: 220px;
+  min-width: 220px;
+}
+
+.chat-input-foot {
+  max-height: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.chat-input-show-foot {
+  max-height: 600px;
+  transition: all 0.3s ease-in-out;
+}
+.expand-footer-item {
+  width: 244px;
+
+  &-img {
+    height: 150px;
+  }
+}
+
+.emoji-box-input {
+  outline: none;
+  border: none;
+  max-height: 136px;
+  caret-color: auto;
+  user-select: auto;
+  -webkit-user-select: auto;
+}
+
+.emoji-view-box {
+  padding: 15px 18px;
+
+  .emoji-item {
+    width: 85px;
+    height: 85px;
+    margin: 15px 22px;
+  }
+}
+
+.emoji-item-input {
+  width: 56px;
+  height: 56px;
+  margin: 0 4px;
+  ::after {
+    content: '';
+  }
+}
+
+.expand-footer-box {
+  padding: 0 52px 60px;
+}

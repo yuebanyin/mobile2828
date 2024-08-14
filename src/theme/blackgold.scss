@@ -1,0 +1,156 @@
+.theme-blackgold {
+  /*黑金独有色**/
+  --bx-primary-color: #e1ac1f;
+  --bx-primary-o7-color: rgba(225, 172, 31, 0.7);
+  --bx-primary-tabs-text-color: #b0b0af;
+  --bx-gradient-btn-main-color: linear-gradient(180deg, #fff1c3 0%, #c78f00 100%);
+  --bx-gradient-btn-secondary-color: linear-gradient(180deg, #847866 0%, #2d2d2d 70.31%);
+  --bx-gradient-top-backgroundColor: linear-gradient(90deg, #4a4a4a 0%, #27251f 100%);
+  --bx-gradient-amount-backgroundColor: linear-gradient(180deg, #c1d1e3 0%, #425668 91.4%);
+  --bx-amount-solid-gold-color: #6e7f8f;
+  --bx-gradient-popup-color: linear-gradient(180deg, #ffe9af 13.31%, #fffbf2 89.87%);
+  --bx-gradient-number-focus-color: linear-gradient(354.25deg, #f6e095 25.58%, #e6b331 83.31%);
+  --bx-main-alternate-color: #fffaed;
+  --bx-side-pop-bg: #f2f3f6;
+  --bx-gradient-secondary-bg: linear-gradient(180deg, #847866 0%, #2d2d2d 70.31%);
+  --bx-black-sec-wds-color: #ffefc2;
+  --bx-grad-close-smbtn: linear-gradient(180deg, #fff7dd 0%, #e9aa09 100%);
+
+  --bx-pri-wds-color: #865606;
+
+  /*共用色*/
+  --bx-pic-bc-color: linear-gradient(149.81deg, #ffe27a 32.36%, #b4771c 85.52%);
+  --bx-verification-color: #1db1ba;
+  --bx-main-red-color: #ff0202;
+  --bx-main-green-color: #01ac46;
+  --bx-main-blue-color: #1a7bf6;
+  --bx-gradient-title-color: linear-gradient(270deg, #08bcb1 0%, #5eded6 100%);
+  --bx-award-history-title-color: #70b1b1;
+  --bx-award-history-bottom-color: rgba(165, 240, 236, 0.3);
+  --bx-gradient-number-ball-red-color: linear-gradient(180deg, #ffa2a2 0%, #e93131 100%);
+  --bx-gradient-number-ball-purple-color: linear-gradient(180deg, #c6d4ee 0%, #506fa8 100%);
+  --bx-gradient-number-ball-whitegray-color: linear-gradient(180deg, #ffffff 0%, #ebebeb 100%);
+  --bx-gradient-btn-ref-bg: linear-gradient(180deg, #ffffff 0%, #ffdbdb 100%);
+  --bx-pk-bottom-yellow: #ffe200;
+  --bx-chat-square-eight-color: #ec2a2a;
+  --bx-game-ball-green: #01ac47;
+  --bx-game-ball-blue: #1a7bf7;
+  --bx-primary-text-color: #242424;
+  --bx-body-background-color: #fff;
+  --bx-content-assist-color: #6e6e6e;
+  --bx-content-tips-color: #9f9f9f;
+  --bx-content-tips-color-lig: rgba(159, 159, 159, 0.2);
+  --bx-tip-background-color: #e1e1e1;
+  --bx-icon-assist-color: #9b9b9b;
+  --bx-main-background-color: #f0f0f0;
+  --bx-games-assist-color: #6a7684;
+  --bx-icon-main-color: #6e7176;
+  --bx-switch-btn-backgroundColor: #cccccc;
+  --bx-input-content-backgroundColor: #f5f5f5;
+  --bx-records-bg: rgba(165, 240, 236, 0.3);
+  --bx-gold-word:#EEBB07;
+  --bx-brown-word:#815603;
+  --bx-aquablue-word:#41D1FF;
+  --bx-waterpink-word:#FF3A3A;
+  --bx-earthcolor-word:#421A0D;
+
+  /*侧边的颜色*/
+  --bx-tab-icon-focus-color: linear-gradient(149.81deg, #ffdfb6 10.65%, #fc6e00 94.3%);
+  --bx-tab-icon-stroke-color: linear-gradient(180deg, #fdb868 0%, #ffc773 100%);
+  --bx-slide-sec-1: linear-gradient(180deg, #fffbef 0%, #e8b32c 100%);
+  --bx-slide-sec-2: linear-gradient(180deg, #fffbef 0%, #e8b32c 100%);
+  --bx-slide-sec-3: linear-gradient(154.06deg, rgba(233, 233, 233, 0.8) 9.97%, rgba(105, 105, 105, 0.8) 92.95%);
+
+  /*************************以下设计稿规范未给出 ,单设计稿有出现*************************************/
+
+  --bx-primary-light-color: rgba(252, 130, 32, 0.2);
+  --bx-primary-tabs-text-color: #767b89;
+  --bx-primary-shadow: rgba(0, 0, 0, 0.05);
+  --bx-lineBox-shadow: rgba(187, 187, 187, 0.5);
+  --bx-content-light-color: #d8ffff;
+  --bx-line-light-bg: #fffaed;
+  --bx-line-dark-bg: #f5f5f5;
+  --bx-announce-bg: #fff3ea;
+  --bx-grad-close-smbtn: linear-gradient(180deg, #fff7dd 0%, #e9aa09 100%);
+  --bx-gray-color: #666666;
+
+  /*充值那块*/
+  --bx-re-bg: #fafbfd;
+  --bx-sm-btn-bg: #ffd7b7;
+  --bx-sm-btn-col: #db4a4a;
+  --bx-sm-btn-red: #eb7979;
+
+  /*阴影样式*/
+  --bx-sdow-primary: rgba(137, 137, 137, 0.2);
+  --bx-sdow-by-foc1: #e6b331;
+  --bx-sdow-by-foc2: rgba(193, 196, 201, 0.3);
+  --bx-sdow-by-foc3: rgba(193, 196, 201, 0.4);
+  --bx-sdow-by-uns1: #b9bfca;
+  --bx-sdow-by-uns2: rgba(193, 196, 201, 0.3);
+  --bx-sdow-by-uns3: rgba(193, 196, 201, 0.4);
+  --bx-sdow-base: rgba(140, 162, 187, 0.4);
+  --bx-sdow-sec: rgba(17, 83, 255, 0.15);
+  --bx-sdow-squ: rgba(9, 15, 33, 0.18);
+  --bx-sdow-unu: rgba(0, 0, 0, 0.2);
+  --bx-sdow-ball: rgba(0, 0, 0, 0.2);
+  --bx-sdow-normal: #89898933;
+  --bx-sdow-smbtn1: #3b8df1;
+  --bx-sdow-smbtn2: #c3eaf9;
+  --bx-sdow-chat-house: rgba(137, 137, 137, 0.2);
+
+  /*蒙层*/
+  --bx-mask-color: rgba(0, 0, 0, 0.6);
+  --bx-transparent-color: rgba(0, 0, 0, 0);
+
+  /*上是设计稿规范颜色  下是个性细节颜色*/
+  --bx-chat-square-one-color: #f3d11e;
+  --bx-chat-square-two-color: #4268cb;
+  --bx-chat-square-three-color: #4b4b4b;
+  --bx-chat-square-four-color: #ff742f;
+  --bx-chat-square-five-color: #58c0c1;
+  --bx-chat-square-six-color: #00539d;
+  --bx-chat-square-seven-color: #b5b5b5;
+  --bx-chat-square-eight-color: #ec2a2a;
+  --bx-chat-square-nine-color: #91474a;
+  --bx-chat-square-ten-color: #1b741c;
+
+  --bx-game-pink-bg: rgba(236, 42, 42, 0.2);
+  --bx-game-menu-item-bg: rgba(225, 172, 31, 0.3);
+  --bx-game-blue-bg: rgba(42, 201, 236, 0.2);
+  --bx-game-green-bg: linear-gradient(180deg, #55ebd9 13.31%, #1ec0ad 89.87%);
+  --bx-game-blue-color: #2ac9ec;
+  --bx-game-redbag-money-color: #ffeeb3;
+  --bx-game-redbag-text-color: #e1ac1f;
+
+  --bx-game-alt-hot: #fa372b;
+  --bx-game-alt-pc28: #fac32b;
+  --bx-game-alt-classic: #83a5d9;
+  --bx-game-ele: #74aedc;
+  --bx-game-chess: #85b730;
+
+  /* 首页单独换肤处理 */
+  --bx-home-header-bg-color: #0e0e0e;
+  --bx-home-primary-color: #ffdc81;
+  --bx-home-primary-text-color: #ffffff;
+  --bx-home-notice-color: #c1c1c1;
+  --bx-home-game-nav-color: #2b2b2b;
+  --bx-home-game-nav-act-color: #ffe0a4;
+  --bx-home-game-name-color: #e3b84a;
+  --bx-home-game-bg-color: #1f1b18;
+  --bx-home-online-bg-color: #1f1b18;
+  --bx-home-money-bg-color: #262626;
+  --bx-home-bg-color: #0e0e0e;
+  --bx-more-spot-color: #fff;
+  --bx-singal-spot-color: #e1ac1f;
+  --bx-service-bg-color: #3d3b30;
+  --bx-notice-right-icon: linear-gradient(90deg, rgba(14, 14, 14, 0) 20%, rgba(14, 14, 14, 0.6) 40%, #0e0e0e 60%);
+  --bx-avtar-border-color: linear-gradient(180deg, #f9e6a5 44.79%, #efb55e 100%);
+  --bx-tabbar-bg-color: #0e0e0e;
+  --bx-tabbar-box-shadow: rgba(0, 0, 0, 0.05);
+  --bx-tabbar-color: #b0b0af;
+  --bx-tabbar-act-color: #bc914f;
+  --bx-game-img-shadow: #00000066;
+  --bx-home-login-btn-text-color: #865606;
+  --bx-home-restry-btn-text-color: #ffefc2;
+  --bx-home-level-text-color: #816215;
+}

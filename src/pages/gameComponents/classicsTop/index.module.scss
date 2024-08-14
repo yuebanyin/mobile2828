@@ -1,0 +1,78 @@
+.pre-period {
+  width: 160px;
+  color: var(--bx-primary-color);
+  font-weight: 900;
+  font-size: 40px;
+  margin: 40px;
+}
+
+.result-content {
+  margin-right: 40px;
+  padding: 20px 0;
+}
+
+.pn {
+  width: 160px;
+  height: 50px;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 46px;
+  color: var(--bx-primary-color);
+}
+
+.last-result-number {
+  .result-number {
+    position: relative;
+    justify-content: flex-start;
+  }
+}
+
+.fh {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 62px;
+  text-align: center;
+  /* 共用色/通用黑色 */
+
+  color: #242424;
+}
+
+.cpn {
+  width: 140px;
+  height: 50px;
+}
+
+.time {
+  width: 180px;
+  margin-left: 24px;
+  text-align: center;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 40px;
+  // font-weight: 900;
+}
+
+.azr {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.az5 {
+  height: 60px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 60px;
+  /* 蓝黄规范/全局主色 */
+
+  color: var(--bx-primary-color);
+
+  border: 2px solid var(--bx-primary-color);
+  border-radius: 10px;
+  &-txt {
+    padding: 0 20px;
+    text-align: center;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,372 @@
+@import url('~@/assets/fonts/index.css');
+@import url('~@/theme/blackgold.scss');
+@import url('~@/theme/blueyellow.scss');
+@import url('~@/theme/whiteblue.scss');
+
+/** 基础公共样式*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  touch-action: none;
+  -ms-touch-action: none;
+  font-family: HEIJIN, -apple-system, BlinkMacSystemFont, Hssselvetica Neue,
+    Helvetica, Segoe UI, Arial, Roboto, Hiragino Sans GB, Microsoft Yahei,
+    sans-serif;
+}
+a {
+  text-decoration: none;
+  color: var(--bx-primary-text-color);
+  border: 0;
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  opacity: 0;
+  display: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+  border: 0;
+  outline: none;
+  width: 100%;
+  height: 100%;
+}
+
+div,
+span,
+p,
+i,
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+table,
+td,
+tr,
+ul,
+li,
+head,
+header,
+footer,
+address,
+article,
+iframe,
+a {
+  caret-color: transparent;
+  user-select: none;
+  -webkit-touch-callout: none; /*系统默认菜单被禁用*/
+  -webkit-user-select: none; /*webkit浏览器*/
+  -khtml-user-select: none; /*早期浏览器*/
+  -moz-user-select: none; /*火狐*/
+  -ms-user-select: none; /*IE10*/
+}
+
+input,
+textarea {
+  caret-color: auto;
+  user-select: auto;
+  -webkit-user-select: auto; /*webkit浏览器*/
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  background: var(--bx-main-background-color);
+  color: var(--bx-primary-text-color);
+  -webkit-tap-highlight-color: transparent;
+  // 默认给正文字体字号
+  font-size: 40px;
+  font-family: HEIJIN, -apple-system, BlinkMacSystemFont, Hssselvetica Neue,
+    Helvetica, Segoe UI, Arial, Roboto, Hiragino Sans GB, Microsoft Yahei,
+    sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+// 加冒号的文字
+.text-colon {
+  &::after {
+    content: ':';
+    margin: 0 4px;
+  }
+}
+
+.avatar-server {
+  flex: initial;
+}
+
+// 圆点
+.spot {
+  &-mini {
+    width: 18.72px;
+    height: 18.72px;
+    border: 2.88px solid var(--bx-body-background-color);
+    background: var(--bx-singal-spot-color);
+    border-radius: 50%;
+  }
+}
+// 更多：竖排3个圆点
+.more-spot {
+  width: 14px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    // background: var(--bx-icon-main-color);
+  }
+}
+
+/** -----------常用组合------*/
+// 文字两端对齐的样式设置，使用该样式盒子内的文字需要有空格（使用时对应的文字之间需加空格，form表单不用单独加，已经在覆盖文件中加过了）
+.text-justify {
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--bx-primary-text-color);
+  text-align: justify;
+  min-width: 85px;
+  text-align-last: justify;
+}
+// 伪类
+.bigtop::after {
+  content: '';
+  width: 172px;
+  height: 48px;
+  display: block;
+  background-size: 100%;
+  background-image: url('../assets/image/blueyellow/chatroom/chatArrow.png');
+  z-index: 9999999;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+//控制元素消失
+.pack-div {
+  width: 0;
+  height: 0;
+  display: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+//图片
+.img {
+  &-mini {
+    width: 70px;
+    height: 70px;
+  }
+  &-pay-methods {
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+  }
+  &-normal {
+    width: 87px;
+    height: 87px;
+  }
+  &-mid {
+    width: 135px;
+    height: 135px;
+  }
+}
+
+// 头像
+.avatar {
+  &-server {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+  }
+  &-cg {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+  }
+  &-small-active {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+  }
+  &-large {
+    width: 166px;
+    height: 166px;
+    background: var(--bx-main-background-color);
+    border-radius: 50%;
+  }
+
+  &-mid {
+    width: 114px;
+    height: 114px;
+    padding: 3px;
+    background: var(--bx-avtar-border-color);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  &-small {
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+
+  &-mini {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--bx-primary-color);
+    cursor: pointer;
+  }
+
+  &-small-active {
+    border-color: var(--bx-sheep-primary-color);
+  }
+}
+
+// 渐变颜色的标题
+.clip-text {
+  background-image: var(--bx-primary6-background-color);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+// 首页公用图片标题
+.module-title {
+  margin: 36px auto;
+  display: block;
+}
+// 鼠标形状
+.c {
+  &-p {
+    cursor: pointer;
+  }
+}
+
+// 个人中心各个模块的阴影样式
+.common-box-shadown {
+  border-radius: 10px;
+  box-shadow: var(--bx-primary3-box-shadown);
+  background: var(--bx-body-background-color);
+  display: flex;
+  padding: 8px 20px;
+  flex-direction: column;
+  margin-top: 20px;
+  flex: 1;
+}
+
+// 全局laoding样式
+.page-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+/***************按钮样式****************/
+.btn-item {
+  width: 120px;
+  background: var(--bx-light-primary-button-background-color);
+  color: var(--bx-primary-color);
+  transition: all 0.2s;
+
+  &:hover {
+    color: var(--bx-text-white-color);
+    background: var(--bx-primary-color);
+  }
+}
+
+// 单行省略
+.oe {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+// 滚动条样式处理
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+// 滚动条设置
+.os {
+  &-x-list {
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+
+    &::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: var(--bx-scrollbar-thumb-background-color);
+      border-radius: 10px;
+    }
+
+    &-item {
+      display: inline-block;
+    }
+  }
+}
+
+// 滚动
+.o {
+  overflow: auto;
+
+  &-x {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  &-y {
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+
+    &-mask {
+      position: absolute;
+      bottom: 0;
+      background: var(--bx-game-linar-gradient-color);
+      height: 32px;
+      left: 0;
+      right: 0;
+      z-index: 1;
+    }
+  }
+
+  &-none {
+    overflow: hidden;
+  }
+}

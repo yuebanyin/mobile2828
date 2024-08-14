@@ -1,0 +1,38 @@
+.bx-badge {
+    position: relative;
+    display: inline-block;
+}
+
+.bx-badge-dot {
+    position: absolute;
+    background: var(--bx-main-red-color);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    z-index: 0;
+    left: 75%;
+    top: -15px;
+}
+
+    
+.bx-badge-f-28 {
+    font-size: 28px;
+}
+
+.bx-badge-f-26 {
+    font-size: 18px;
+}
+
+.bx-badge-num {
+    position: absolute;
+    background: var(--bx-main-red-color);
+    color: var(--bx-body-background-color);
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    text-align: center;
+    z-index: 0;
+    left: 75%;
+    top: -35px;
+}

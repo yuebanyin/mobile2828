@@ -1,0 +1,24 @@
+.preferential-card {
+  margin-bottom: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 965px;
+  height: 521px;
+  border-radius: 28px;
+  color: var(--bx-primary-text-color);
+  background: var(--bx-body-background-color);
+  box-shadow: 0px 8px 6px var(--bx-lineBox-shadow);
+  &-title {
+    width: 965px;
+    height: 100px;
+    line-height: 100px;
+    font-weight: 400;
+    font-size: 46.08px;
+    padding: 0 43px;
+    color: var(--bx-primary-text-color);
+  }
+  &-ad {
+    width: 965px;
+    height: 389px;
+  }
+}

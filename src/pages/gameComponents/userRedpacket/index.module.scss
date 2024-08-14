@@ -1,0 +1,76 @@
+.red-packet-img {
+  width: 370px;
+  height: 495px;
+}
+
+.red-packet-title {
+  width: 270px;
+  left: 50px;
+  top: 86px;
+}
+
+.big-redpacket-png {
+  width: 920px;
+  height: 1300px;
+}
+
+.redpacket-avatar-info {
+  top: 125px;
+}
+
+.avatar {
+  height: 102px;
+  width: 102px;
+}
+
+.body-transpant {
+  background: transparent;
+}
+.open-redpacket-png {
+  left: 380px;
+  bottom: 300px;
+}
+
+.redpacket-list-wrap {
+  background-size: contain;
+  .redpack-list {
+    padding: 24px 50px;
+  }
+
+  .lager-redpacket-png {
+    width: 64px;
+    height: 56px;
+  }
+
+  .redpacket-goback {
+    color: var(--bx-body-background-color);
+  }
+}
+
+.redpacket-body {
+  margin: 0 !important;
+}
+
+.all-score {
+  color: var(--bx-game-redbag-money-color);
+}
+
+.top-redpacket-item {
+  padding: 16px 20px 16px 60px;
+  border-radius: 60px 0 0 60px;
+
+  .top-redpacket-img {
+    width: 84px;
+    height: 95px;
+    transform: rotate(-15deg);
+    left: -40px;
+  }
+}
+.red-box {
+  .red-close {
+    width: 78px;
+    height: 78px;
+    font-size: 78px;
+    color: var(--bx-body-background-color);
+  }
+}

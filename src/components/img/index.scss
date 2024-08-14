@@ -1,0 +1,38 @@
+@mixin base-img-bg {
+  border-style: none;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-img {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.img-error {
+  @include base-img-bg;
+}
+
+.img-blueyellow-default {
+  background-image: url('../../assets/image/blueyellow/common/loading.gif');
+  background-size: 240px;
+  @include base-img-bg;
+}
+
+.img-blackgold-default {
+  background-image: url('../../assets/image/blackgold/common/loading.gif');
+  background-size: 240px;
+  @include base-img-bg;
+}
+
+.img-whiteblue-default {
+  background-image: url('../../assets/image/whiteblue/common/loading.gif');
+  background-size: 240px;
+  @include base-img-bg;
+}
+
+.bg-img-defalut {
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

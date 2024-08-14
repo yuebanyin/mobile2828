@@ -1,0 +1,32 @@
+.bx-picker-list {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  height: 100%;
+}
+
+@mixin bx-picker-label-value-comon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.bx-picker-label {
+  @include bx-picker-label-value-comon;
+  height: 50px;
+  font-size: 44px;
+}
+
+.bx-picker-value {
+  @include bx-picker-label-value-comon;
+  position: relative;
+  line-height: 50px;
+  &-icon {
+    transition: transform 0.2s;
+  }
+  &-placeholder {
+    color: var(--bx-content-tips-color);
+  }
+}

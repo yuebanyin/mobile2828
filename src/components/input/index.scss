@@ -1,0 +1,48 @@
+.bx-input {
+  outline: none;
+  border: none;
+  height: 50px;
+  line-height: 50px;
+  font-size: 44px;
+  padding: 0 50px;
+  flex: 1;
+  &::placeholder {
+    color: var(--bx-content-tips-color);
+  }
+}
+.input-clear {
+  background-color: var(--bx-tip-background-color);
+  min-width: 48px;
+  height: 48px;
+
+  .input-clear-icon {
+    font-size: 12px;
+    width: 24px;
+    height: 24px;
+    color: var(--bx-body-background-color);
+  }
+}
+.input-password-show {
+  width: 66px;
+  height: 49px;
+  border: 8px solid var(--bx-primary-color);
+  > div {
+    width: 27px;
+    height: 27px;
+    border: 8px solid var(--bx-primary-color);
+  }
+}
+.input-password-hidden {
+  font-size: 56px;
+  height: 49px;
+  width: 66px;
+}
+
+.input-addfix {
+  right: 30px;
+}
+
+.input-psd-hiddle {
+  width: 80px;
+  height: 60px;
+}

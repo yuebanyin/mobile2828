@@ -1,0 +1,32 @@
+.bx-eye-show {
+  width: 66px;
+  height: 49px;
+  border: 6px solid var(--bx-body-background-color);
+  > div {
+    width: 27px;
+    height: 27px;
+    border: 6px solid var(--bx-body-background-color);
+  }
+}
+.bx-eye-hidden {
+  font-size: 56px;
+  height: 49px;
+  width: 66px;
+}
+
+.bx-eye {
+  width: 48px;
+  height: 48px;
+}
+
+.bx-e-show {
+  width: 48px;
+  height: 36px;
+  margin-top: 2px;
+}
+
+.bx-e-hide {
+  width: 48px;
+  height: 26px;
+  margin-top: 12px;
+}

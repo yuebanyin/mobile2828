@@ -1,0 +1,122 @@
+//cell主体
+
+.bx-cell-small {
+  min-height: 100px;
+  height: 100px;
+}
+.bx-cell-middle {
+  min-height: 150px;
+  height: 150px;
+}
+.bx-cell-large {
+  min-height: 220px;
+  height: 220px;
+}
+
+.bx-cell {
+  // width: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: var(--bx-body-background-color);
+  &-10 {
+    border-radius: 10px;
+  }
+  &-20 {
+    border-radius: 20px;
+  }
+  &-30 {
+    border-radius: 30px;
+  }
+  &-50 {
+    border-radius: 50px;
+  }
+  &-80 {
+    border-radius: 80px;
+  }
+  &-desc {
+    font-size: 44px;
+    color: var(--bx-content-assist-color);
+    &-left {
+      text-align: left;
+    }
+    &-center {
+      text-align: center;
+    }
+    &-right {
+      text-align: right;
+    }
+  }
+  &-normal {
+    .text {
+      margin-left: 20px;
+      flex: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+  &-noicon {
+    .text {
+      margin-left: 50px;
+      flex: 1;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+  .bx-cell-c {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-end;
+  }
+  //cell内容块
+  .bx-cell-content {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 44px;
+    color: var(--bx-primary-text-color);
+  }
+
+  //右边箭头
+  .bx-arrow {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 44px;
+    line-height: 44px;
+  }
+}
+
+.bx-desc-text {
+  margin-left: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--bx-content-assist-color);
+}
+
+.bx-dvd-l-50 {
+  margin-left: 50px;
+}
+
+//左边图片默认大小
+.bx-cell-icon {
+  margin-left: 70px;
+  width: 86px;
+  height: 86px;
+}
+
+//分割线
+.bx-cell-dvd {
+  border-bottom: 2px solid var(--bx-tip-background-color);
+  //width: 100%;
+  // padding-top: 48px;
+}

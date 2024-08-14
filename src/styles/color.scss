@@ -1,0 +1,495 @@
+body {
+  .color {
+    &-primary {
+      color: var(--bx-primary-color);
+    }
+    &-primary-text {
+      color: var(--bx-primary-text-color);
+    }
+    &-primary-tabs {
+      color: var(--bx-primary-tabs-text-color);
+    }
+
+    //icon颜色
+    &-main {
+      color: var(--bx-icon-main-color);
+    }
+    &-assist {
+      color: var(--bx-icon-assist-color);
+    }
+    &-focus {
+      color: var(--bx-tab-icon-focus-color);
+    }
+    &-stroke {
+      color: var(--bx-tab-icon-stroke-color);
+    }
+    &-unselect {
+      color: var(--bx-primary-tabs-text-color);
+    }
+    &-yel {
+      color: var(--bx-pk-bottom-yellow);
+    }
+
+    //验证提示语
+    &-vf-tip {
+      color: var(--bx-verification-color);
+    }
+    //主要纯色
+    &-white {
+      color: var(--bx-body-background-color);
+    }
+    &-red {
+      color: var(--bx-main-red-color);
+    }
+    &-green {
+      color: var(--bx-main-green-color);
+    }
+    &-blue {
+      color: var(--bx-main-blue-color);
+    }
+    &-alternate {
+      color: var(--bx-main-alternate-color);
+    }
+
+    //历史奖金标题色
+    &-hty {
+      color: var(--bx-award-history-title-color);
+    }
+    &-hty-bot {
+      color: var(--bx-award-history-bottom-color);
+    }
+
+    //内容色
+    &-con-ass {
+      color: var(--bx-content-assist-color);
+    }
+    &-tips {
+      color: var(--bx-content-tips-color);
+    }
+    &-game-ass {
+      color: var(--bx-games-assist-color);
+    }
+
+    //充值个性化
+    &-re-red {
+      color: var(--bx-sm-btn-col);
+    }
+
+    //切换游戏弹窗
+    &-alt-hot {
+      color: var(--bx-game-alt-hot);
+    }
+    &-alt-pc28 {
+      color: var(--bx-game-alt-pc28);
+    }
+    &-alt-cla {
+      color: var(--bx-game-alt-classic);
+    }
+    &-game-menu-ele {
+      color: var(--bx-game-ele);
+    }
+    &-game-menu-chess {
+      color: var(--bx-game-chess);
+    }
+
+    // 小球颜色
+    &-game-ball-red {
+      color: var(--bx-chat-square-eight-color);
+    }
+    &-game-ball-blue {
+      color: var(--bx-main-blue-color);
+    }
+    &-game-ball-green {
+      color: var(--bx-main-green-color);
+    }
+    &-home-primary {
+      color: var(--bx-home-primary-text-color);
+    }
+    &-tabbar {
+      color: var(--bx-tabbar-color);
+    }
+    &-tabbar-act {
+      color: var(--bx-tabbar-act-color);
+    }
+    &-home-login-btn {
+      color: var(--bx-home-login-btn-text-color);
+    }
+    &-home-restry-btn {
+      color: var(--bx-home-restry-btn-text-color);
+    }
+
+    &-records-col {
+      color: var(--bx-home-game-nav-color);
+    }
+    &-nav-login {
+      color: var(--bx-amount-solid-gold-color);
+    }
+    &-jin {
+      color: var(--bx-gold-word);
+    }
+    &-mu {
+      color: var(--bx-brown-word);
+    }
+    &-shui {
+      color: var(--bx-aquablue-word);
+    }
+    &-huo {
+      color: var(--bx-waterpink-word);
+    }
+    &-tu {
+      color: var(--bx-earthcolor-word);
+    }
+    &-squ-seven {
+      color: var(--bx-chat-square-seven-color);
+    }
+  }
+
+  // 盒子阴影
+  .bs {
+    &-primary {
+      box-shadow: 0px 4px 15px var(--bx-sdow-primary);
+    }
+    &-by-foc {
+      box-shadow: 0px 5px 0px var(--bx-sdow-by-foc1), 0px 2px 1px 1px var(--bx-sdow-by-foc2), 0px 9px 2px 1px var(--bx-sdow-by-foc3);
+    }
+    &-by-uns {
+      box-shadow: 0px 5px 0px var(--bx-sdow-by-uns1), 0px 2px 1px 1px var(--bx-sdow-by-uns2), 0px 9px 2px 1px var(--bx-sdow-by-uns3);
+    }
+    &-base {
+      box-shadow: 0px 8px 14px var(--bx-sdow-base);
+    }
+    &-sec {
+      box-shadow: 0px 4.32px 23.04px var(--bx-sdow-sec);
+    }
+    &-squ {
+      box-shadow: 0px 2px 3px 1px var(--bx-sdow-squ);
+    }
+    &-squ2 {
+      box-shadow: 0px 4px 3px 0.5px var(--bx-sdow-squ);
+    }
+    &-unu {
+      box-shadow: 0px 4px 20px var(--bx-sdow-unu);
+    }
+    &-ball {
+      box-shadow: 0px 4px 20px var(--bx-sdow-ball);
+    }
+    &-normal {
+      box-shadow: 0px 4px 15px 0px var(--bx-sdow-normal);
+    }
+    &-smbtn {
+      box-shadow: 0px 4px 0px var(--bx-sdow-smbtn1), inset 0px 4px 0px var(--bx-sdow-smbtn2);
+    }
+    &-line-grey {
+      box-shadow: 0px 8px 6px var(--bx-lineBox-shadow);
+    }
+    &-sd-black {
+      box-shadow: 0px -2.78683px 15.792px 2.78683px var(--bx-primary-shadow);
+    }
+    &-sd-house {
+      box-shadow: 0px 4px 15px 0px var(--bx-sdow-chat-house);
+    }
+    &-game-con {
+      box-shadow: 0px 4px 10px 0px var(--bx-game-img-shadow);
+    }
+  }
+  // 背景色
+  .bg {
+    &-gold {
+      background: var(--bx-amount-solid-gold-color);
+    }
+    &-yel {
+      background: var(--bx-pk-bottom-yellow);
+    }
+    &-primary {
+      background: var(--bx-primary-color);
+    }
+    &-pri-light {
+      background: var(--bx-primary-light-color);
+    }
+    &-mask {
+      background: var(--bx-mask-color);
+    }
+    &-swiper {
+      background: var(--bx-swiper-background-color);
+    }
+    &-body {
+      background: var(--bx-body-background-color);
+    }
+    &-main {
+      background: var(--bx-main-background-color);
+    }
+    &-main-red {
+      background: var(--bx-main-red-color);
+    }
+    &-tip {
+      background: var(--bx-tip-background-color);
+    }
+    &-tips-lig {
+      background: var(--bx-content-tips-color-lig);
+    }
+    &-ann {
+      background: var(--bx-announce-bg);
+    }
+    &-re-low {
+      background: var(--bx-re-bg);
+    }
+    &-ref-lig {
+      background: var(--bx-gradient-btn-ref-bg);
+    }
+
+    //背景渐变色
+    &-gdt-main {
+      background: var(--bx-gradient-btn-main-color);
+    }
+    &-gdt-sec {
+      background: var(--bx-gradient-btn-secondary-color);
+    }
+    &-gdt-top {
+      background: var(--bx-gradient-top-backgroundColor);
+    }
+    &-gdt-amount {
+      background: var(--bx-gradient-amount-backgroundColor);
+    }
+    &-gdt-popup {
+      background: var(--bx-gradient-popup-color);
+    }
+    &-gdt-foc {
+      background: var(--bx-gradient-number-focus-color);
+    }
+    //渐变标题色
+    &-gdt-title {
+      background: var(--bx-gradient-title-color);
+    }
+
+    //ball背景渐变色
+    &-gdt-red {
+      background: var(--bx-gradient-number-ball-red-color);
+    }
+    &-gdt-purple {
+      background: var(--bx-gradient-number-ball-purple-color);
+    }
+    &-gdt-whgray {
+      background: var(--bx-gradient-number-ball-whitegray-color);
+    }
+    &-gdt-blue {
+      background: var(--bx-grad-close-smbtn);
+    }
+
+    //ball的主要纯色
+    &-byellow {
+      background: var(--bx-number-ball-yellow-color);
+    }
+
+    &-swi {
+      background: var(--bx-switch-btn-backgroundColor);
+    }
+    &-incon {
+      background: var(--bx-input-content-backgroundColor);
+    }
+    &-bgray {
+      background: var(--bx-icon-main-color);
+    }
+    &-green {
+      background: var(--bx-main-green-color);
+    }
+
+    // 走势图表小球背景色
+    &-game-ball-red {
+      background: var(--bx-chat-square-eight-color);
+    }
+    &-game-ball-blue {
+      background: var(--bx-main-blue-color);
+    }
+    &-game-ball-green {
+      background: var(--bx-main-green-color);
+    }
+    &-game-ball-grey {
+      background: var(--bx-games-assist-color);
+    }
+
+    //小块背景
+    &-alternate {
+      background: var(--bx-main-alternate-color);
+    }
+    &-int-lig {
+      background: var(--bx-line-light-bg);
+    }
+    &-int-dark {
+      background: var(--bx-line-dark-bg);
+    }
+    &-sm-org {
+      background: var(--bx-sm-btn-bg);
+    }
+    // 侧边弹窗背景色
+    &-pop-grey {
+      background: var(--bx-side-pop-bg);
+    }
+
+    //充值
+    &-re-red {
+      background: var(--bx-sm-btn-red);
+    }
+
+    //方块游戏小球背景色
+    &-squ-one {
+      background: var(--bx-chat-square-one-color);
+    }
+    &-squ-two {
+      background: var(--bx-chat-square-two-color);
+    }
+    &-squ-three {
+      background: var(--bx-chat-square-three-color);
+    }
+    &-squ-four {
+      background: var(--bx-chat-square-four-color);
+    }
+    &-squ-five {
+      background: var(--bx-chat-square-five-color);
+    }
+    &-squ-six {
+      background: var(--bx-chat-square-six-color);
+    }
+    &-squ-seven {
+      background: var(--bx-chat-square-seven-color);
+    }
+    &-squ-eight {
+      background: var(--bx-chat-square-eight-color);
+    }
+    &-squ-nine {
+      background: var(--bx-chat-square-nine-color);
+    }
+    &-squ-ten {
+      background: var(--bx-chat-square-ten-color);
+    }
+
+    // 聊天室
+    &-chat-green {
+      background: var(--bx-game-green-bg);
+    }
+    &-chat-light-bg {
+      background: var(--bx-announce-bg);
+    }
+    &-pink-bg {
+      background: var(--bx-game-pink-bg);
+    }
+    &-menu-item-bg {
+      background: var(--bx-game-menu-item-bg);
+    }
+    &-home {
+      background: var(--bx-home-bg-color);
+    }
+    &-home-game {
+      background: var(--bx-home-game-bg-color);
+    }
+    &-home-online {
+      background: var(--bx-home-online-bg-color);
+    }
+    &-home-money {
+      background: var(--bx-home-money-bg-color);
+    }
+    &-more-spot {
+      background: var(--bx-more-spot-color);
+    }
+    &-service {
+      background: var(--bx-service-bg-color);
+    }
+
+    // 历史记录
+    &-records-title {
+      background: var(--bx-records-bg);
+    }
+
+    &-con-ass {
+      background: var(--bx-content-assist-color);
+    }
+    &-tabbar {
+      background: var(--bx-tabbar-bg-color);
+    }
+    &-home-header {
+      background: var(--bx-home-header-bg-color);
+    }
+    // 五行
+    &-jin {
+      background: var(--bx-gold-word);
+    }
+    &-mu {
+      background: var(--bx-brown-word);
+    }
+    &-shui {
+      background: var(--bx-aquablue-word);
+    }
+    &-huo {
+      background: var(--bx-waterpink-word);
+    }
+    &-tu {
+      background: var(--bx-earthcolor-word);
+    }
+  }
+
+  // 边框颜色
+  .bc {
+    &-primary {
+      border-color: var(--bx-primary-color);
+    }
+    &-split {
+      border-color: var(--bx-tip-background-color);
+    }
+    &-grey {
+      border-color: var(--bx-tip-background-color);
+    }
+    &-white {
+      border-color: var(--bx-body-background-color);
+    }
+    &-red {
+      border-color: var(--bx-main-red-color);
+    }
+    &-blue {
+      border-color: var(--bx-main-blue-color);
+    }
+    &-green {
+      border-color: var(--bx-main-green-color);
+    }
+    &-none {
+      border-color: var(--bx-transparent-color);
+    }
+    &-t-black {
+      border-color: var(--bx-primary-text-color) transparent transparent transparent;
+    }
+    &-t-orange {
+      border-color: var(--bx-primary-color) transparent transparent transparent;
+    }
+  }
+  // 透明度
+  .opa {
+    &-0 {
+      opacity: 0;
+    }
+    &-1 {
+      opacity: 1;
+    }
+    &-2 {
+      opacity: 0.2;
+    }
+    &-3 {
+      opacity: 0.3;
+    }
+    &-4 {
+      opacity: 0.4;
+    }
+    &-5 {
+      opacity: 0.5;
+    }
+    &-6 {
+      opacity: 0.6;
+    }
+    &-7 {
+      opacity: 0.7;
+    }
+    &-8 {
+      opacity: 0.8;
+    }
+    &-9 {
+      opacity: 0.9;
+    }
+  }
+}

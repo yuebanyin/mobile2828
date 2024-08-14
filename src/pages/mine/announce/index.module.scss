@@ -1,0 +1,44 @@
+.msg-icon {
+  margin-left: 30px;
+  width: 91px;
+  height: 91px;
+}
+
+// 初略--需要修改
+.content {
+  flex: 1;
+  margin: 30px 50px 0 50px;
+  font-size: 40px;
+  line-height: 50px;
+  white-space:normal;
+  word-break:break-all;
+  word-wrap:break-word;
+}
+
+
+.time {
+  flex: 1;
+  // margin: 30px 50px 0 50px;
+  font-size: 34px;
+  line-height: 50px;
+  color: var(--bx-home-notice-color);
+}
+
+
+.status {
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--bx-home-notice-color);
+}
+
+.statusEx {
+  font-size: 40px;
+  line-height: 50px;
+  color: var(--bx-main-red-color);
+}
+
+.del-btn {
+  width: 260px;
+  height: 175px;
+  background: #FF5E62;
+}

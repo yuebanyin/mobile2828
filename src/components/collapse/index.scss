@@ -1,0 +1,36 @@
+.bx-colllapse-header-box {
+  padding: 24px 60px;
+}
+
+.bx-colllapse-header-prefix {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: var(--bx-primary-color);
+  margin-right: 12px;
+  &-active {
+    background-color: var(--bx-icon-assist-color);
+  }
+}
+.bx-colllapse-header-sub-title {
+  margin-right: 40px;
+}
+
+.bx-colllapse-children {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  margin: 0 60px;
+}
+
+.max-height-1000 {
+  max-height: 1000px;
+}
+
+.rote-icon {
+  transition: all 0.2s;
+}
+.rote-90 {
+  transform: rotate(90deg);
+}

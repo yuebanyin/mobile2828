@@ -1,0 +1,103 @@
+.bx-search-capsule {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bx-input-content-backgroundColor);
+  border-radius: 100px;
+  height: 140px;
+  flex: 1;
+  overflow: hidden;
+  &-title {
+    color: var(--bx-primary-text-color);
+    height: 140px;
+    padding: 48px 24px;
+    background: transparent;
+    transition: all 0.2s;
+    &-active {
+      height: 140px;
+      padding: 48px 24px;
+      color: var(--bx-pri-wds-color);
+      background: var(--bx-gradient-btn-main-color);
+    }
+  }
+}
+
+.bx-tab-underline,
+.bx-search-underline {
+  background-color: var(--bx-body-background-color);
+  font-size: 44px;
+  line-height: 52px;
+
+  &-title {
+    margin: 48px 0 40px;
+    border-bottom: 8px solid transparent;
+    // transition: all 0.2s;
+
+    &-active {
+      padding: 48px 0 40px;
+      color: var(--bx-primary-color);
+      border-bottom: 8px solid var(--bx-primary-color);
+    }
+  }
+}
+.bx-tab-underline-vertical {
+  background-color: var(--bx-body-background-color);
+  font-size: 44px;
+  line-height: 52px;
+  overflow: hidden auto;
+
+  &-title {
+    padding: 30px 50px 30px 70px;
+    transition: all 0.2s;
+    text-align: center;
+
+    &-active {
+      padding: 30px 50px 30px 70px;
+      color: var(--bx-primary-color);
+      // TODO
+      background: var(--bx-main-alternate-color);
+      position: relative;
+      font-weight: 900;
+      text-align: center;
+
+      &::before {
+        content: '';
+        width: 14px;
+        background-color: var(--bx-primary-color);
+        height: 100%;
+        border-radius: 20px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 10px;
+        transition: all 0.2s;
+      }
+    }
+  }
+}
+
+// 实体方形tabs title
+.bx-tab-rectangle {
+  &-title {
+    color: var(--bx-primary-text-color);
+    // font-size: 34px;
+    // line-height: 40px;
+    &-active {
+      padding: 30px 20px;
+      color: var(--bx-body-background-color);
+      background: var(--bx-primary-color);
+    }
+  }
+}
+.bx-tabpane {
+  overflow: auto;
+  flex-shrink: 0;
+}
+
+.bx-tabs-wrap {
+  overflow: hidden;
+}
+
+.bx-tabs-wrap-vertical {
+  display: flex;
+}

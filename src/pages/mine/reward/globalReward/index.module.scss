@@ -1,0 +1,34 @@
+.global-reward-drag {
+  bottom: 140px;
+  right: 0;
+}
+
+.global-reward-view {
+  width: 218px;
+  height: 257px;
+  position: relative;
+}
+
+.global-reward-img {
+  width: 218px;
+  height: 231px;
+  position: absolute;
+  bottom: 0;
+}
+
+.global-reward-tip {
+  text-align: center;
+  width: 100%;
+  height: 34px;
+  position: absolute;
+  bottom: 29px;
+  color: #c97224;
+}
+
+.global-reward-close {
+  width: 44px;
+  height: 44px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}

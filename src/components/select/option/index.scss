@@ -1,0 +1,83 @@
+
+
+
+.expand-box{
+  padding: 0 50px 0 50px;
+  background-color: var(--bx-body-background-color);
+  max-height: 0;
+  transition: max-height 0.2s;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  // top: 150px;
+
+  &-border{
+    border-top: 2px solid var(--bx-tip-background-color) ;
+  }
+  .item{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 44px;
+    line-height: 50px;
+
+    //点击箭头类型
+    .pick-icon{
+      color: var(--bx-primary-color);
+      opacity: 0;
+    }
+    .show-checkicon{
+      opacity: 1;
+      color: var(--bx-primary-color);
+    }
+
+
+  }
+  .item-col{
+    color: var(--bx-primary-color);
+  }
+
+  //btn形式
+  .block-title{
+    font-size: 40px;
+    line-height: 46px;
+    color: var(--bx-primary-text-color);
+    margin-bottom: 30px;
+  }
+  .block-box{
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    padding-bottom: 20px;
+  }
+  .btn-item{
+    min-width: 300px;
+    height: 80px;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bx-body-background-color);
+    border: 2px solid var(--bx-tip-background-color);
+    border-radius: 20px;
+    font-size: 44px;
+    line-height: 50px;
+    color: var(--bx-content-assist-color);
+    margin-bottom: 30px;
+    margin-right: 40px;
+    &:nth-child(3n){
+      margin-right: 0;
+    }
+  }
+  .btn-item-active{
+    color: var(--bx-primary-color);
+    border: 2px solid var(--bx-primary-color);
+  }
+}
+.ep-active{
+  padding: 50px 50px 0 50px;
+  max-height: 1000px;
+  // transition: all .5s;
+}

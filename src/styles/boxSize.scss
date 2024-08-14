@@ -1,0 +1,1557 @@
+body {
+  // icon 组合类型大小
+  .icon {
+    &-copy {
+      width: 38px;
+      height: 44px;
+    }
+    &-side-86 {
+      width: 86px;
+      height: 86px;
+    }
+    &-main-110 {
+      width: 110px;
+      height: 110px;
+    }
+    &-100 {
+      width: 100px;
+      height: 100px;
+    }
+    &-50 {
+      width: 50px;
+      height: 50px;
+    }
+    &-60 {
+      width: 60px;
+      height: 60px;
+    }
+    &-72 {
+      width: 72px;
+      height: 72px;
+    }
+    &-86 {
+      width: 86px;
+      height: 86px;
+    }
+    &-chat-140 {
+      width: 140px;
+      height: 140px;
+    }
+    &-120 {
+      width: 120px;
+      height: 120px;
+    }
+    &-chat-150 {
+      width: 150px;
+      height: 150px;
+    }
+    &-160 {
+      width: 160px;
+      height: 160px;
+    }
+    &-170 {
+      width: 170px;
+      height: 170px;
+    }
+    &-185 {
+      width: 185px;
+      height: 185px;
+    }
+  }
+
+  // 游戏盒子组合类型大小
+  .gameBox {
+    &-sm-bet {
+      width: 142px;
+      height: 162px;
+    }
+    &-ball-72 {
+      width: 72px;
+      height: 72px;
+    }
+    &-mid-396 {
+      width: 396px;
+      height: 162px;
+    }
+    &-mid-432 {
+      width: 432px;
+      height: 100px;
+    }
+    &-big-812 {
+      width: 812px;
+      height: 162px;
+    }
+  }
+  .max-w {
+    &-p-80 {
+      max-width: 80%;
+    }
+  }
+  // 盒子宽度
+  .w {
+    &-490 {
+      width: 490px;
+      max-width: 490px;
+    }
+
+    &-full {
+      width: 100%;
+    }
+    &-half {
+      width: 50%;
+    }
+    &-third {
+      width: 33%;
+    }
+    &-fifth {
+      width: 20%;
+    }
+
+    &-1 {
+      width: 1px;
+    }
+    &-10 {
+      width: 10px;
+    }
+    &-16 {
+      width: 16px;
+    }
+    &-24 {
+      width: 24px;
+    }
+    &-34 {
+      width: 34px;
+    }
+    &-36 {
+      width: 36px;
+    }
+    &-40 {
+      width: 40px;
+    }
+    &-44 {
+      width: 44px;
+    }
+    &-47 {
+      width: 47px;
+    }
+    &-50 {
+      width: 50px;
+    }
+    &-55 {
+      width: 55px;
+    }
+    &-62 {
+      width: 62px;
+    }
+    &-66 {
+      width: 66px;
+    }
+    &-70 {
+      width: 70px;
+    }
+    &-72 {
+      width: 72px;
+    }
+    &-78 {
+      width: 78px;
+    }
+    &-80 {
+      width: 80px;
+    }
+    &-86 {
+      width: 86px;
+    }
+    &-94 {
+      width: 94px;
+    }
+    &-100 {
+      width: 100px;
+    }
+    &-105 {
+      width: 105px;
+    }
+    &-118 {
+      width: 118px;
+    }
+    &-116 {
+      width: 116px;
+    }
+    &-120 {
+      width: 120px;
+    }
+    &-140 {
+      width: 140px;
+    }
+    &-142 {
+      width: 142px;
+    }
+    &-150 {
+      width: 150px;
+    }
+    &-154 {
+      width: 154px;
+    }
+
+    &-156 {
+      width: 156px;
+    }
+    &-160 {
+      width: 160px;
+    }
+    &-168 {
+      width: 168px;
+    }
+    &-170 {
+      width: 170px;
+    }
+    &-172 {
+      width: 172px;
+    }
+    &-180 {
+      width: 180px;
+    }
+
+    &-min-108 {
+      min-width: 108px;
+    }
+    &-210 {
+      width: 210px;
+    }
+    &-200 {
+      width: 200px;
+    }
+    &-220 {
+      width: 220px;
+    }
+    &-min-220 {
+      min-width: 220px;
+    }
+    &-230 {
+      width: 230px;
+    }
+    &-258 {
+      width: 258px;
+    }
+    &-260 {
+      width: 260px;
+    }
+    &-280 {
+      width: 280px;
+    }
+    &-300 {
+      width: 300px;
+    }
+    &-min-300 {
+      min-width: 300px;
+    }
+    &-320 {
+      width: 320px;
+    }
+    &-330 {
+      width: 330px;
+    }
+    &-340 {
+      width: 340px;
+    }
+    &-350 {
+      width: 350px;
+    }
+    &-min-344 {
+      min-width: 344px;
+    }
+    &-366 {
+      width: 366px;
+    }
+    &-376 {
+      width: 376px;
+    }
+    &-400 {
+      width: 400px;
+    }
+    &-460 {
+      width: 460px;
+    }
+    &-524 {
+      width: 524px;
+    }
+    &-540 {
+      width: 540px;
+    }
+    &-560 {
+      width: 560px;
+    }
+    &-716 {
+      width: 716px;
+    }
+    &-794 {
+      width: 794px;
+    }
+    &-808 {
+      width: 808px;
+    }
+    &-860 {
+      width: 860px;
+    }
+    &-880 {
+      width: 880px;
+    }
+    &-900 {
+      width: 900px;
+    }
+    &-940 {
+      width: 940px;
+    }
+    &-980 {
+      width: 980px;
+    }
+    &-auto {
+      width: auto;
+    }
+  }
+
+  .view-contain {
+    min-height: 1920px;
+    max-height: 100%;
+  }
+  // 盒子高度
+  .h {
+    &-full {
+      height: 100%;
+    }
+
+    &-full-head {
+      height: calc(100% - 150px);
+    }
+    &-full-anhead {
+      height: calc(100% - 400px);
+    }
+    &-vh {
+      height: calc(100vh - 460px);
+    }
+    &-eighty {
+      height: 80%;
+    }
+    &-75vh {
+      height: 75vh;
+    }
+    &-auto {
+      height: auto;
+    }
+    &-fc {
+      height: fit-content;
+    }
+    &-swiper {
+      height: 630px;
+    }
+    &-0 {
+      height: 0px;
+    }
+    &-2 {
+      height: 2px;
+    }
+    &-10 {
+      height: 10px;
+    }
+    &-20 {
+      height: 20px;
+    }
+    &-24 {
+      height: 24px;
+    }
+    &-26 {
+      height: 26px;
+    }
+
+    &-30 {
+      height: 30px;
+    }
+    &-34 {
+      height: 34px;
+    }
+    &-40 {
+      height: 40px;
+    }
+    &-41 {
+      height: 41px;
+    }
+    &-44 {
+      height: 44px;
+    }
+    &-48 {
+      height: 48px;
+    }
+    &-50 {
+      height: 50px;
+    }
+    &-60 {
+      height: 60px;
+    }
+    &-62 {
+      height: 62px;
+    }
+    &-66 {
+      height: 66px;
+    }
+
+    &-70 {
+      height: 70px;
+    }
+    &-72 {
+      height: 72px;
+    }
+    &-78 {
+      height: 78px;
+    }
+
+    &-80 {
+      height: 80px;
+    }
+    &-86 {
+      height: 86px;
+    }
+    &-90 {
+      height: 90px;
+    }
+    &-94 {
+      height: 94px;
+    }
+    &-100 {
+      height: 100px;
+    }
+    &-102 {
+      height: 102px;
+    }
+    &-103 {
+      height: 103px;
+    }
+    &-110 {
+      height: 110px;
+    }
+    &-114 {
+      height: 114px;
+    }
+    &-120 {
+      height: 120px;
+    }
+
+    &-127 {
+      height: 127px;
+    }
+    &-130 {
+      height: 130px;
+    }
+    &-132 {
+      height: 132px;
+    }
+    &-138 {
+      height: 138px;
+    }
+
+    &-140 {
+      height: 140px;
+    }
+    &-150 {
+      height: 150px;
+    }
+    &-154 {
+      height: 154px;
+    }
+    &-157 {
+      height: 157px;
+    }
+    &-158 {
+      height: 158px;
+    }
+    &-162 {
+      height: 162px;
+    }
+    &-164 {
+      height: 164px;
+    }
+    &-166 {
+      height: 166px;
+    }
+    &-170 {
+      height: 170px;
+    }
+    &-180 {
+      height: 180px;
+    }
+    &-190 {
+      height: 190px;
+    }
+    &-210 {
+      height: 210px;
+    }
+    &-220 {
+      height: 220px;
+    }
+    &-238 {
+      height: 238px;
+    }
+    &-256 {
+      height: 256px;
+    }
+    &-282 {
+      height: 282px;
+    }
+    &-290 {
+      height: 290px;
+    }
+    &-300 {
+      height: 300px;
+    }
+    &-max-320 {
+      max-height: 320px;
+    }
+    &-332 {
+      height: 332px;
+    }
+    &-340 {
+      height: 340px;
+    }
+    &-348 {
+      height: 348px;
+    }
+    &-min-340 {
+      min-height: 340px;
+    }
+    &-366 {
+      height: 366px;
+    }
+    &-370 {
+      height: 370px;
+    }
+    &-400 {
+      height: 400px;
+    }
+    &-435 {
+      height: 435px;
+    }
+    &-500 {
+      height: 500px;
+    }
+    &-540 {
+      height: 540px;
+    }
+
+    &-574 {
+      height: 574px;
+    }
+    &-787 {
+      height: 787px;
+    }
+    &-m-800 {
+      max-height: 800px;
+    }
+    &-min-1064 {
+      min-height: 1064px;
+    }
+    &-1098 {
+      height: 1098px;
+    }
+    &-1100 {
+      height: 1100px;
+    }
+    &-1240 {
+      height: 1240px;
+    }
+    &-1280 {
+      height: 1280px;
+    }
+    &-max-2000 {
+      max-height: 2000px;
+    }
+    &-2000 {
+      height: 2000px;
+    }
+    &-fill-aviable {
+      height: -webkit-fill-available;
+      height: fill-available;
+      height: -moz-available;
+    }
+  }
+
+  // 盒子外边距
+  .m {
+    &-0 {
+      margin: 0;
+    }
+    &-5 {
+      margin: 5px;
+    }
+    &-8 {
+      margin: 8px;
+    }
+    &-10 {
+      margin: 10px;
+    }
+    &-15 {
+      margin: 15px;
+    }
+    &-20 {
+      margin: 20px;
+    }
+    &-25 {
+      margin: 25px;
+    }
+    &-30 {
+      margin: 30px;
+    }
+    &-40 {
+      margin: 40px;
+    }
+    &-44 {
+      margin: 44px;
+    }
+    &-50 {
+      margin: 50px;
+    }
+    &-0-auto {
+      margin: 0 auto;
+    }
+    &-auto-0 {
+      margin: auto 0;
+    }
+    &-16-0 {
+      margin: 16px 0;
+    }
+
+    &-12-auto {
+      margin: 12px auto;
+    }
+
+    &-30-auto {
+      margin: 30px auto;
+    }
+
+    &-0-10 {
+      margin: 0 10px;
+    }
+
+    &-0-16 {
+      margin: 0 16px;
+    }
+
+    &-0-20 {
+      margin: 0 20px;
+    }
+
+    &-0-44 {
+      margin: 0 44px;
+    }
+
+    &-30-0 {
+      margin: 30px 0;
+    }
+    &-0-30 {
+      margin: 0 30px;
+    }
+    &-0-50 {
+      margin: 0 50px;
+    }
+
+    &-t-auto {
+      margin-top: auto;
+    }
+
+    &-t-0 {
+      margin-top: 0;
+    }
+
+    &-t-2 {
+      margin-top: 2px;
+    }
+
+    &-t-3 {
+      margin-top: 3px;
+    }
+
+    &-t-6 {
+      margin-top: 6px;
+    }
+    &-t-10 {
+      margin-top: 10px;
+    }
+
+    &-t-14 {
+      margin-top: 14px;
+    }
+
+    &-t-15 {
+      margin-top: 15px;
+    }
+
+    &-t-16 {
+      margin-top: 16px;
+    }
+    &-t-18 {
+      margin-top: 18px;
+    }
+
+    &-t-24 {
+      margin-top: 24px;
+    }
+    &-t-30 {
+      margin-top: 30px;
+    }
+    &-t-34 {
+      margin-top: 34px;
+    }
+    &-t-20 {
+      margin-top: 20px;
+    }
+    &-t-40 {
+      margin-top: 40px;
+    }
+    &-t-48 {
+      margin-top: 48px;
+    }
+    &-t-50 {
+      margin-top: 50px;
+    }
+    &-t-56 {
+      margin-top: 56px;
+    }
+    &-t-60 {
+      margin-top: 60px;
+    }
+    &-t-80 {
+      margin-top: 80px;
+    }
+    &-t-100 {
+      margin-top: 100px;
+    }
+    &-t-110 {
+      margin-top: 110px;
+    }
+    &-t-132 {
+      margin-top: 132px;
+    }
+    &-t--50 {
+      margin-top: -50px;
+    }
+
+    &-b-10 {
+      margin-bottom: 10px;
+    }
+
+    &-b-14 {
+      margin-bottom: 14px;
+    }
+    &-b-18 {
+      margin-bottom: 18px;
+    }
+
+    &-b-0 {
+      margin-bottom: 0;
+    }
+    &-b-2 {
+      margin-bottom: 2px;
+    }
+    &-b-12 {
+      margin-bottom: 12px;
+    }
+
+    &-b-20 {
+      margin-bottom: 20px;
+    }
+
+    &-b-30 {
+      margin-bottom: 30px;
+    }
+
+    &-b-40 {
+      margin-bottom: 40px;
+    }
+    &-b-50 {
+      margin-bottom: 50px;
+    }
+    &-b-16 {
+      margin-bottom: 16px;
+    }
+    &-b-110 {
+      margin-bottom: 110px;
+    }
+
+    &-l-0 {
+      margin-left: 0;
+    }
+
+    &-l-4 {
+      margin-left: 4px;
+    }
+    &-l-auto {
+      margin-left: auto;
+    }
+
+    &-l-10 {
+      margin-left: 10px;
+    }
+    &-l-12 {
+      margin-left: 12px;
+    }
+
+    &-l-20 {
+      margin-left: 20px;
+    }
+    &-l-30 {
+      margin-left: 30px;
+    }
+    &-l-50 {
+      margin-left: 50px;
+    }
+    &-l-60 {
+      margin-left: 60px;
+    }
+    &-l-70 {
+      margin-left: 70px;
+    }
+    &-l-80 {
+      margin-left: 80px;
+    }
+
+    &-r-0 {
+      margin-right: 0;
+    }
+    &-r-4 {
+      margin-right: 4px;
+    }
+    &-r-6 {
+      margin-right: 6px;
+    }
+    &-r-10 {
+      margin-right: 10px;
+    }
+
+    &-r-12 {
+      margin-right: 12px;
+    }
+
+    &-r-15 {
+      margin-right: 15px;
+    }
+    &-r-20 {
+      margin-right: 20px;
+    }
+    &-r-22 {
+      margin-right: 22px;
+    }
+    &-r-30 {
+      margin-right: 30px;
+    }
+    &-r-40 {
+      margin-right: 40px;
+    }
+    &-r-50 {
+      margin-right: 50px;
+    }
+    &-r-56 {
+      margin-right: 56px;
+    }
+    &-r-80 {
+      margin-right: 80px;
+    }
+    &-r-90 {
+      margin-right: 90px;
+    }
+    &-r--360 {
+      margin-right: -360px;
+    }
+    &-0-24-0-12 {
+      margin: 0 24px 0 12px;
+    }
+    &-42-0-34 {
+      margin: 42px 0 34px;
+    }
+    &-10-0-12 {
+      margin: 10px 0 12px;
+    }
+    &-0-50-0-24 {
+      margin: 0 50px 0 24px;
+    }
+  }
+  // 盒子外边距-左右边距
+  .mx {
+    &-5 {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+    &-10 {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    &-15 {
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    &-20 {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    &-25 {
+      margin-left: 25px;
+      margin-right: 25px;
+    }
+    &-30 {
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    &-40 {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+    &-50 {
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+  }
+  // 盒子外边距-上下边距
+  .my {
+    &-5 {
+      margin-top: 5px;
+      margin-bottom: 5px;
+    }
+    &-10 {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+    &-15 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    &-20 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    &-25 {
+      margin-top: 25px;
+      margin-bottom: 25px;
+    }
+    &-30 {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    &-40 {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    &-50 {
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+  }
+  // 盒子外边距-上边距
+  .mt {
+    &-5 {
+      margin-top: 5px;
+    }
+    &-10 {
+      margin-top: 10px;
+    }
+    &-15 {
+      margin-top: 15px;
+    }
+    &-20 {
+      margin-top: 20px;
+    }
+    &-25 {
+      margin-top: 25px;
+    }
+    &-30 {
+      margin-top: 30px;
+    }
+    &-40 {
+      margin-top: 40px;
+    }
+    &-50 {
+      margin-top: 50px;
+    }
+  }
+  // 盒子外边距-左边距
+  .ml {
+    &-5 {
+      margin-left: 5px;
+    }
+    &-10 {
+      margin-left: 10px;
+    }
+    &-15 {
+      margin-left: 15px;
+    }
+    &-20 {
+      margin-left: 20px;
+    }
+    &-25 {
+      margin-left: 25px;
+    }
+    &-30 {
+      margin-left: 30px;
+    }
+    &-40 {
+      margin-left: 40px;
+    }
+    &-50 {
+      margin-left: 50px;
+    }
+  }
+  // 盒子外边距-下边距
+  .mb {
+    &-5 {
+      margin-bottom: 5px;
+    }
+    &-10 {
+      margin-bottom: 10px;
+    }
+    &-15 {
+      margin-bottom: 15px;
+    }
+    &-20 {
+      margin-bottom: 20px;
+    }
+    &-25 {
+      margin-bottom: 25px;
+    }
+    &-30 {
+      margin-bottom: 30px;
+    }
+    &-40 {
+      margin-bottom: 40px;
+    }
+    &-50 {
+      margin-bottom: 50px;
+    }
+  }
+  // 盒子外边距-右边距
+  .mr {
+    &-5 {
+      margin-right: 5px;
+    }
+    &-10 {
+      margin-right: 10px;
+    }
+    &-15 {
+      margin-right: 15px;
+    }
+    &-20 {
+      margin-right: 20px;
+    }
+    &-25 {
+      margin-right: 25px;
+    }
+    &-30 {
+      margin-right: 30px;
+    }
+    &-40 {
+      margin-right: 40px;
+    }
+    &-50 {
+      margin-right: 50px;
+    }
+  }
+  // 盒子内边距
+  .p {
+    &-0 {
+      padding: 0;
+    }
+    &-5 {
+      padding: 5px;
+    }
+    &-10 {
+      padding: 10px;
+    }
+    &-12 {
+      padding: 12px;
+    }
+    &-15 {
+      padding: 15px;
+    }
+    &-20 {
+      padding: 20px;
+    }
+    &-25 {
+      padding: 25px;
+    }
+    &-30 {
+      padding: 30px;
+    }
+    &-40 {
+      padding: 40px;
+    }
+    &-50 {
+      padding: 50px;
+    }
+    &-2-20 {
+      padding: 2px 20px;
+    }
+    &-2-30 {
+      padding: 2px 30px;
+    }
+    &-15-0 {
+      padding: 15px 0;
+    }
+    &-16-0 {
+      padding: 16px 0;
+    }
+    &-15-10 {
+      padding: 15px 10px;
+    }
+    &-15-20 {
+      padding: 15px 20px;
+    }
+    &-15-12 {
+      padding: 15px 12px;
+    }
+    &-20-0 {
+      padding: 20px 0;
+    }
+    &-20-40 {
+      padding: 20px 40px;
+    }
+
+    &-6-0 {
+      padding: 6px 0;
+    }
+
+    &-6-10 {
+      padding: 6px 10px;
+    }
+
+    &-10-12 {
+      padding: 10px 12px;
+    }
+    &-16-10 {
+      padding: 16px 10px;
+    }
+    &-4-14 {
+      padding: 4px 14px;
+    }
+
+    &-4-8 {
+      padding: 4px 8px;
+    }
+
+    &-6-20 {
+      padding: 6px 20px;
+    }
+    &-14-20 {
+      padding: 14px 20px;
+    }
+    &-16-38 {
+      padding: 16px 38px;
+    }
+    &-0-10 {
+      padding: 0px 10px;
+    }
+    &-0-50 {
+      padding: 0px 50px;
+    }
+    &-0-100 {
+      padding: 0px 100px;
+    }
+    &-8-26 {
+      padding: 8px 26px;
+    }
+    &-20-30 {
+      padding: 20px 30px;
+    }
+    &-10-30 {
+      padding: 10px 30px;
+    }
+    &-10-40 {
+      padding: 10px 40px;
+    }
+    &-0-30 {
+      padding: 0px 30px;
+    }
+
+    &-t-0 {
+      padding-top: 0;
+    }
+
+    &-t-12 {
+      padding-top: 12px;
+    }
+    &-t-8 {
+      padding-top: 8px;
+    }
+
+    &-t-10 {
+      padding-top: 10px;
+    }
+    &-t-16 {
+      padding-top: 16px;
+    }
+
+    &-t-20 {
+      padding-top: 20px;
+    }
+    &-t-30 {
+      padding-top: 30px;
+    }
+    &-t-40 {
+      padding-top: 40px;
+    }
+    &-t-50 {
+      padding-top: 50px;
+    }
+    &-t-60 {
+      padding-top: 60px;
+    }
+    &-t-150 {
+      padding-top: 150px;
+    }
+    &-t-210 {
+      padding-top: 210px;
+    }
+    &-b-0 {
+      padding-bottom: 0;
+    }
+    &-b-20 {
+      padding-bottom: 20px;
+    }
+    &-b-25 {
+      padding-bottom: 25px;
+    }
+
+    &-b-30 {
+      padding-bottom: 30px;
+    }
+    &-b-50 {
+      padding-bottom: 50px;
+    }
+    &-b-80 {
+      padding-bottom: 80px;
+    }
+    &-b-10 {
+      padding-bottom: 10px;
+    }
+    &-b-16 {
+      padding-bottom: 16px;
+    }
+    &-b-40 {
+      padding-bottom: 40px;
+    }
+    &-b-220 {
+      padding-bottom: 220px;
+    }
+    &-b-300 {
+      padding-bottom: 300px;
+    }
+    &-l-0 {
+      padding-left: 0;
+    }
+
+    &-l-10 {
+      padding-left: 10px;
+    }
+
+    &-l-14 {
+      padding-left: 14px;
+    }
+
+    &-l-20 {
+      padding-left: 20px;
+    }
+
+    &-l-30 {
+      padding-left: 30px;
+    }
+    &-l-50 {
+      padding-left: 50px;
+    }
+    &-l-60 {
+      padding-left: 60px;
+    }
+    &-l-70 {
+      padding-left: 70px;
+    }
+    &-l-80 {
+      padding-left: 80px;
+    }
+    &-r-0 {
+      padding-right: 0;
+    }
+    &-r-10 {
+      padding-right: 10px;
+    }
+    &-r-15 {
+      padding-right: 15px;
+    }
+    &-r-20 {
+      padding-right: 20px;
+    }
+    &-r-30 {
+      padding-right: 30px;
+    }
+    &-r-50 {
+      padding-right: 50px;
+    }
+    &-r-70 {
+      padding-right: 70px;
+    }
+    &-r-80 {
+      padding-right: 80px;
+    }
+    &-r-200 {
+      padding-right: 200px;
+    }
+    &-r-360 {
+      padding-right: 360px;
+    }
+
+    &-8-0 {
+      padding: 8px 0;
+    }
+    &-10-0 {
+      padding: 10px 0;
+    }
+    &-0-52 {
+      padding: 0 52px;
+    }
+    &-0-20 {
+      padding: 0 20px;
+    }
+    &-0-40 {
+      padding: 0 40px;
+    }
+    &-0-60 {
+      padding: 0 60px;
+    }
+    &-50-42 {
+      padding: 50px 42px;
+    }
+
+    &-10-36-40-120 {
+      padding: 10px 36px 40px 120px;
+    }
+
+    &-32-0-16 {
+      padding: 32px 0 16px;
+    }
+
+    &-20-0-10 {
+      padding: 20px 0 10px;
+    }
+    &-0-20-20 {
+      padding: 0 20px 20px;
+    }
+    &-30-50 {
+      padding: 30px 50px;
+    }
+    &-30-50-0 {
+      padding: 30px 50px 0;
+    }
+    &-30-60-0 {
+      padding: 30px 60px 0;
+    }
+    &-30-20 {
+      padding: 30px 20px;
+    }
+    &-30-20-0 {
+      padding: 30px 20px 0;
+    }
+    &-30-20-10 {
+      padding: 30px 20px 10px;
+    }
+
+    &-5-0-12 {
+      padding: 5px 0 12px;
+    }
+
+    &-8-10-0-12 {
+      padding: 8px 10px 0 12px;
+    }
+
+    &-20-8-20-12 {
+      padding: 20px 8px 20px 12px;
+    }
+    &-30-0-30-50 {
+      padding: 30px 0 30px 50px;
+    }
+    &-100-80-0-100 {
+      padding: 100px 80px 0 100px;
+    }
+  }
+  // 盒子内边距-左右边距
+  .px {
+    &-5 {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+    &-10 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    &-15 {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    &-20 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    &-25 {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    &-30 {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+    &-40 {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    &-50 {
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+  }
+  // 盒子内边距-上下边距
+  .py {
+    &-5 {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+    &-10 {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    &-15 {
+      padding-top: 15px;
+      padding-bottom: 15px;
+    }
+    &-20 {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    &-25 {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    &-30 {
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    &-40 {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    &-50 {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+  // 盒子内边距-上边距
+  .pt {
+    &-5 {
+      padding-top: 5px;
+    }
+    &-10 {
+      padding-top: 10px;
+    }
+    &-15 {
+      padding-top: 15px;
+    }
+    &-20 {
+      padding-top: 20px;
+    }
+    &-25 {
+      padding-top: 25px;
+    }
+    &-30 {
+      padding-top: 30px;
+    }
+    &-40 {
+      padding-top: 40px;
+    }
+    &-50 {
+      padding-top: 50px;
+    }
+  }
+  // 盒子内边距-左边距
+  .pl {
+    &-5 {
+      padding-left: 5px;
+    }
+    &-10 {
+      padding-left: 10px;
+    }
+    &-15 {
+      padding-left: 15px;
+    }
+    &-20 {
+      padding-left: 20px;
+    }
+    &-25 {
+      padding-left: 25px;
+    }
+    &-30 {
+      padding-left: 30px;
+    }
+    &-40 {
+      padding-left: 40px;
+    }
+    &-50 {
+      padding-left: 50px;
+    }
+    &-130 {
+      padding-left: 130px;
+    }
+  }
+  // 盒子内边距-下边距
+  .pb {
+    &-5 {
+      padding-bottom: 5px;
+    }
+    &-10 {
+      padding-bottom: 10px;
+    }
+    &-15 {
+      padding-bottom: 15px;
+    }
+    &-20 {
+      padding-bottom: 20px;
+    }
+    &-25 {
+      padding-bottom: 25px;
+    }
+    &-30 {
+      padding-bottom: 30px;
+    }
+    &-40 {
+      padding-bottom: 40px;
+    }
+    &-50 {
+      padding-bottom: 50px;
+    }
+  }
+  // 盒子内边距-右边距
+  .pr {
+    &-5 {
+      padding-right: 5px;
+    }
+    &-10 {
+      padding-right: 10px;
+    }
+    &-15 {
+      padding-right: 15px;
+    }
+    &-20 {
+      padding-right: 20px;
+    }
+    &-25 {
+      padding-right: 25px;
+    }
+    &-30 {
+      padding-right: 30px;
+    }
+    &-40 {
+      padding-right: 40px;
+    }
+    &-50 {
+      padding-right: 50px;
+    }
+  }
+}

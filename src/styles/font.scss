@@ -1,0 +1,413 @@
+body {
+  // 文字对齐方式
+  .ta {
+    &-l {
+      text-align: left;
+    }
+
+    &-r {
+      text-align: right;
+    }
+
+    &-c {
+      text-align: center;
+    }
+
+    &-j {
+      text-align: justify;
+    }
+    &-l-j {
+      text-align-last: justify;
+    }
+  }
+  .dir {
+    &-l {
+      direction: ltr;
+    }
+    &-r {
+      direction: rtl;
+    }
+  }
+
+  // 垂直对齐方式
+  .va {
+    &-t {
+      vertical-align: top;
+    }
+
+    &-m {
+      vertical-align: middle;
+    }
+
+    &-b {
+      vertical-align: bottom;
+    }
+  }
+
+  // 空白是否会换行
+  .ws {
+    &-n {
+      white-space: normal;
+    }
+
+    &-p-l {
+      white-space: pre-line;
+    }
+
+    &-no {
+      white-space: nowrap;
+    }
+
+    &-p-w {
+      white-space: pre-wrap;
+    }
+  }
+
+  // 文字是否折行
+  .wb {
+    &-all {
+      word-break: break-all;
+    }
+
+    &-w {
+      word-wrap: break-word;
+    }
+
+    &-none {
+      word-break: keep-all;
+    }
+  }
+  // 几种文字大小集合
+  .wds {
+    // 超大字（红包）
+    &-lge-env {
+      font-size: 150px;
+      line-height: 172px;
+    }
+    // 大字红包
+    &-big-env {
+      font-size: 120px;
+      line-height: 137px;
+    }
+    // 大字 game
+    &-big-game {
+      font-size: 100px;
+      line-height: 80px;
+    }
+    // 大标题
+    &-big-title {
+      font-size: 70px;
+      line-height: 80px;
+    }
+    // 特级标题
+    &-spc-title {
+      font-size: 60px;
+      line-height: 69px;
+    }
+    // 一级标题
+    &-h1 {
+      font-size: 54px;
+      line-height: 62px;
+    }
+    // 二级标题
+    &-h2 {
+      font-size: 50px;
+      line-height: 57px;
+    }
+    // 小标题
+    &-sm-title {
+      font-size: 44px;
+      line-height: 50px;
+    }
+    // 正文
+    &-con {
+      font-size: 40px;
+      line-height: 46px;
+    }
+    // 小文
+    &-sm-con {
+      font-size: 34px;
+      line-height: 39px;
+    }
+    // 说明
+    &-explain-con {
+      font-size: 30px;
+      line-height: 34px;
+    }
+  }
+
+  .t {
+    &-explain {
+      font-size: 30px;
+    }
+    &-main {
+      font-size: 40px;
+    }
+    &-small {
+      font-size: 34px;
+    }
+    &-30 {
+      font-size: 30px;
+    }
+    &-39 {
+      font-size: 39px;
+    }
+    &-40 {
+      font-size: 40px;
+    }
+    &-45 {
+      font-size: 45px;
+    }
+    &-small-title {
+      font-size: 44px;
+    }
+    &-h2 {
+      font-size: 50px;
+    }
+    &-h1 {
+      font-size: 54px;
+    }
+    &-large {
+      font-size: 60px;
+    }
+    &-large-64 {
+      font-size: 64px;
+    }
+  }
+
+  // 文字行高
+  .lh {
+    &-14 {
+      line-height: 14px;
+    }
+
+    &-18 {
+      line-height: 18px;
+    }
+
+    &-26 {
+      line-height: 26px;
+    }
+
+    &-40 {
+      line-height: 40px;
+    }
+    &-46 {
+      line-height: 46px;
+    }
+    &-50 {
+      line-height: 50px;
+    }
+    &-52 {
+      line-height: 52px;
+    }
+    &-62 {
+      line-height: 62px;
+    }
+    &-64 {
+      line-height: 64px;
+    }
+    &-150 {
+      line-height: 150px;
+    }
+  }
+  // 文字大小、颜色相关
+  .font {
+    &-w-normal {
+      font-weight: 400;
+    }
+
+    &-w-bold {
+      font-weight: 700;
+    }
+
+    &-w-bolder {
+      font-weight: 900;
+    }
+  }
+
+  // 盒子边框
+  .b {
+    &-none {
+      border: none;
+    }
+    &-1 {
+      border: 1px solid transparent;
+    }
+    &-2 {
+      border: 2px solid transparent;
+    }
+    &-17 {
+      border: 17px solid transparent;
+    }
+    &-23 {
+      border: 23px solid transparent;
+    }
+
+    &-l-1 {
+      border-left: 1px solid transparent;
+    }
+
+    &-r-1 {
+      border-right: 1px solid transparent;
+    }
+
+    &-t-1 {
+      border-top: 1px solid transparent;
+    }
+
+    &-b-1 {
+      border-bottom: 1px solid transparent;
+    }
+    &-b-2 {
+      border-bottom: 2px solid transparent;
+    }
+
+    &-l-r-1 {
+      border-left: 1px solid transparent;
+      border-right: 1px solid transparent;
+    }
+
+    &-l-b-1 {
+      border-left: 1px solid transparent;
+      border-bottom: 1px solid transparent;
+    }
+
+    &-l-t-1 {
+      border-left: 1px solid transparent;
+      border-top: 1px solid transparent;
+    }
+
+    &-r-t-1 {
+      border-top: 1px solid transparent;
+      border-right: 1px solid transparent;
+    }
+
+    &-r-b-1 {
+      border-bottom: 1px solid transparent;
+      border-right: 1px solid transparent;
+    }
+
+    &-t-b-1 {
+      border-bottom: 1px solid transparent;
+      border-top: 1px solid transparent;
+    }
+  }
+
+  // 边框圆角
+  .br {
+    &-0 {
+      border-radius: 0;
+    }
+    &-half {
+      border-radius: 50%;
+    }
+
+    &-5 {
+      border-radius: 5px;
+    }
+
+    &-10 {
+      border-radius: 10px;
+    }
+
+    &-15 {
+      border-radius: 15px;
+    }
+
+    &-16 {
+      border-radius: 16px;
+    }
+
+    &-20 {
+      border-radius: 20px;
+    }
+    &-27 {
+      border-radius: 27px;
+    }
+
+    &-30 {
+      border-radius: 30px;
+    }
+
+    &-40 {
+      border-radius: 40px;
+    }
+
+    &-50 {
+      border-radius: 50px;
+    }
+    &-66 {
+      border-radius: 66px;
+    }
+    &-72 {
+      border-radius: 72px;
+    }
+    &-100 {
+      border-radius: 100px;
+    }
+    &-200 {
+      border-radius: 200px;
+    }
+    &-540 {
+      border-radius: 540px;
+    }
+    &-t-l-0 {
+      border-top-left-radius: 0;
+    }
+    &-t-l-20 {
+      border-top-left-radius: 20px;
+    }
+    &-t-l-30 {
+      border-top-left-radius: 30px;
+    }
+    &-t-l-60 {
+      border-top-left-radius: 60px;
+    }
+    &-t-l-100 {
+      border-top-left-radius: 100px;
+    }
+    &-t-r-0 {
+      border-top-right-radius: 0;
+    }
+    &-t-r-20 {
+      border-top-right-radius: 20px;
+    }
+    &-t-r-30 {
+      border-top-right-radius: 30px;
+    }
+    &-t-r-60 {
+      border-top-right-radius: 60px;
+    }
+    &-t-r-100 {
+      border-top-right-radius: 100px;
+    }
+    &-b-l-30 {
+      border-bottom-left-radius: 30px;
+    }
+    &-b-l-0 {
+      border-bottom-left-radius: 0;
+    }
+    &-b-l-40 {
+      border-bottom-left-radius: 40px;
+    }
+    &-b-l-100 {
+      border-bottom-left-radius: 100px;
+    }
+    &-b-r-30 {
+      border-bottom-right-radius: 30px;
+    }
+    &-b-r-0 {
+      border-bottom-right-radius: 0;
+    }
+    &-b-r-40 {
+      border-bottom-right-radius: 40px;
+    }
+    &-b-r-60 {
+      border-bottom-right-radius: 60px;
+    }
+    &-b-r-100 {
+      border-bottom-right-radius: 100px;
+    }
+  }
+}

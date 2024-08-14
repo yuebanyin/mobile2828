@@ -1,0 +1,92 @@
+.b-con {
+  margin-bottom: 0px;
+}
+
+.bet-item-mid {
+  width: 182px;
+}
+
+// ��鰴ť
+.t-large {
+  width: 176px;
+  height: 162px;
+}
+
+.content-wrap {
+  .w-full {
+    width: 100%;
+  }
+}
+
+.h-item-box {
+  height: 162px;
+}
+
+.w-pr-2 {
+  width: 396px;
+}
+
+.w-pr-3 {
+  width: 30%;
+}
+
+.w-pr-4 {
+  width: 176px;
+}
+
+.w-pr-5 {
+  width: 142px;
+}
+
+.g-wrapper {
+  width: 100%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 150px);
+  grid-gap: 10px;
+  grid-template-rows: 72px;
+}
+
+.g-normal {
+  line-height: 72px;
+  text-align: center;
+  font-size: 34px;
+  color: var(--bx-primary-text-color);
+  background: var(--bx-body-background-color);
+  border: 1px solid var(--bx-tip-background-color);
+}
+.g-active {
+  line-height: 72px;
+  text-align: center;
+  font-size: 34px;
+  color: var(--bx-primary-color);
+  background: var(--bx-main-alternate-color);
+  border: 1px solid var(--bx-announce-bg);
+}
+
+// .color-jin {
+//   color: #eebb07;
+// }
+// .color-mu {
+//   color: #815603;
+// }
+// .color-shui {
+//   color: #41d1ff;
+// }
+// .color-huo {
+//   color: #ff3a3a;
+// }
+// .color-tu {
+//   color: #421a0d;
+// }
+
+// 生肖类型
+.sx-grid-box {
+  display: grid;
+}
+
+// 两列
+.dabble-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}

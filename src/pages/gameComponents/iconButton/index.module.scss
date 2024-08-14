@@ -1,0 +1,35 @@
+.icon {
+  width: 39px;
+  height: 39px;
+}
+
+.fs {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  color: #6E7176;
+}
+
+.bg {
+  /* 共用色/输入框背景色 */
+  background: #F5F5F5;
+  /* 蓝黄/咪牌、走势、历史按钮 */
+  box-shadow: 0px 2px 3px 1px rgba(9, 15, 33, 0.18);
+  border-radius: 10px;
+}
+
+.small {
+  width: 190px;
+  height: 80px;
+}
+
+.middle {
+  width: 190px;
+  height: 80px;
+}
+
+.large {
+  width: 190px;
+  height: 80px;
+}

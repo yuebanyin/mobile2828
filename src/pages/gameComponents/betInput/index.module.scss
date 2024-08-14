@@ -1,0 +1,120 @@
+.bet-ctrl {
+  height: 230px;
+}
+
+.bet-icon {
+  margin-left: 30px;
+  width: 100%;
+  height: 180px;
+  margin-top: -80px;
+  background-color:rgba(0,0,0,0)
+}
+
+.icon {
+  width: 140px;
+  height: 140px;
+  display: inline-block;
+  filter: drop-shadow(0px 8px 14px rgba(140, 162, 187, 0.4));
+}
+.icon-text {
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  &-1 {
+    background-image: linear-gradient(180deg, #5083BD 40%, #265D8C 60%);
+  }
+  &-2 {
+    background-image: linear-gradient(180deg, #6BA049 40%, #3E6B22 60%);
+  }
+  &-3 {
+    background-image: linear-gradient(180deg, #4F80BD 40%, #24448A 60%);
+  }
+  &-4 {
+    background-image: linear-gradient(180deg, #CC7449 40%, #A04B28 60%);
+  }
+  &-5 {
+    background-image: linear-gradient(180deg, #B76AC7 40%, #742CA2 60%);
+  }
+  &-6 {
+    background-image: linear-gradient(180deg, #58DDA8 40%, #498D6D 60%);
+  }
+  &-7 {
+    background-image: linear-gradient(180deg, #EABC35 40%, #C27B0C 60%);
+  }
+  &-8 {
+    background-image: linear-gradient(180deg, #FFA470 40%, #D2612D 60%);
+  }
+  &-9 {
+    background-image: linear-gradient(180deg, #FE6666 40%, #CA3232 60%);
+  }
+}
+
+.im-inner {
+  width: 732px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+// 输入框
+.bg-i {
+  background: #F5F5F5;
+}
+
+.b-20 {
+  bottom: 20px;
+}
+
+.mB5 {
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-left: 50px;
+}
+
+.btn-clr {
+  /* 蓝黄规范/渐变色次按钮 */
+  color: var(--bx-black-sec-wds-color);
+  background: var(--bx-gradient-secondary-bg);
+  border-radius: 20px;
+  font-size: 54px;
+  line-height: 62px;
+  width: 180px;
+  height: 100px;
+}
+
+.btn-bet {
+  background: var(--bx-gradient-btn-main-color);
+  border-radius: 20px;
+  font-size: 54px;
+  line-height: 62px;
+  width: 255px;
+  height: 100px;
+}
+
+.balanceImg {
+  position: absolute;
+  width: 255px;
+  height: 89px;
+}
+
+.balanceBg {
+  margin-top: 90px;
+  margin-left: 40px;
+  height: 180px;
+}
+
+.balanceScore {
+  width: inherit;
+  position: absolute;
+  font-size: 34px;
+  line-height: 40px;
+}

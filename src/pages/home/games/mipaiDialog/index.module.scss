@@ -1,0 +1,70 @@
+.body {
+  margin: 0 !important;
+  .content {
+    min-height: 1920px;
+    max-height: 100%;
+  }
+
+  .time-box {
+    width: 772px;
+    height: 151px;
+    margin: 18vh auto 0;
+    background-size: contain;
+    &-a {
+      left: 40px;
+      top: 24px;
+      bottom: 24px;
+      right: 40px;
+      &-l {
+        width: 200px;
+      }
+      &-r {
+        width: 291px;
+        height: 52px;
+        margin-right: 58px;
+      }
+    }
+  }
+
+  .prei-box {
+    margin: 21vh auto 0;
+    width: 426px;
+    height: 120px;
+    background-size: contain;
+  }
+
+  .res-box {
+    margin: 2vh auto 0;
+    width: 844px;
+    height: 317px;
+  }
+
+  .ref-box {
+    margin: 2vh auto 0;
+    width: 674px;
+    height: 180px;
+  }
+
+  .close-png {
+    bottom: 6vh;
+  }
+
+  .result-number {
+    width: 844px;
+    height: 317px;
+  }
+
+  .mj-ball-box {
+    width: 330px;
+    flex-wrap: wrap;
+  }
+}
+.n-ball {
+  width: 86px;
+  height: 86px;
+}
+
+.icon {
+  width: 43px;
+  height: 37px;
+}

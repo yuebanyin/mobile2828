@@ -1,0 +1,50 @@
+.hall-redpacket {
+  .goback {
+    color: var(--bx-body-background-color);
+  }
+  .play-rule-bth {
+    width: 210px;
+    height: 78px;
+  }
+  .content {
+    margin-top: 260px;
+  }
+
+  .title-item {
+    background-size: contain;
+    background-position: 100% 100%;
+  }
+
+  .redpack-bg {
+    min-height: 1418px;
+    margin-top: 420px;
+  }
+
+  .record-bth-box {
+    top: 800px;
+  }
+
+  .redpacket-score-box {
+    top: 250px;
+    height: 230px;
+  }
+  .redpacket-score {
+    width: 600px;
+    height: 230px;
+    font-size: 200px;
+    line-height: 223px;
+    background-image: linear-gradient(180deg, #fe8342 0%, #ff3036 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  .record-bth {
+    width: 720px;
+    height: 182px;
+  }
+}
+
+.redpacket-body {
+  margin: 0 !important;
+}

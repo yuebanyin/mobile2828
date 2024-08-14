@@ -1,0 +1,136 @@
+.mine-wrap {
+  min-height: 577px !important;
+}
+.mine-header-bg-img {
+  max-height: 577px;
+}
+.mine-box {
+  //我的-个人中心box滚动样式
+  position: relative;
+  // margin-top: -410px;
+  // background: var(--bx-body-background-color);
+}
+.mine-info {
+  //公告通知
+  .col-0 {
+    margin: 50px 80px 0 50px;
+  }
+  .badge {
+    display: inline;
+    color: var(--bx-body-background-color);
+    .sup {
+      background: var(--bx-main-red-color);
+      font-size: 28px;
+      line-height: 60px;
+      // z-index: 0;
+      top: -55px;
+      right: -25px;
+    }
+    .r-img {
+      width: 73px;
+      height: 56px;
+    }
+  }
+
+  //第一列组合
+  .col-1 {
+    margin: 0px 50px 0 50px;
+    justify-items: start;
+    // z-index: 2;
+    .col-1-item {
+      //昵称
+      .nkn {
+        color: var(--bx-body-background-color);
+      }
+      //登录按钮
+      .l-btn {
+        border: none;
+        background-color: var(--bx-body-background-color);
+        line-height: 60px;
+        span {
+          color: var(--bx-primary-color);
+        }
+      }
+      //注册按钮
+      .r-btn {
+        border: none;
+        background-image: var(--bx-gradient-btn-secondary-color);
+        line-height: 60px;
+        span {
+          color: var(--bx-body-background-color);
+        }
+      }
+      //组合图左
+      .l-img {
+        width: 270px;
+        height: 72px;
+        line-height: 72px;
+        color: var(--bx-body-background-color);
+        img {
+          width: 33px;
+          height: 48px;
+        }
+      }
+      //组合图右
+      .r-img {
+        width: 312px;
+        height: 72px;
+        line-height: 72px;
+        color: var(--bx-body-background-color);
+        span {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+
+  //第三列组合
+  .col-2 {
+    padding-bottom: 50px;
+    &-item {
+      img {
+        width: 110px;
+        height: 110px;
+      }
+    }
+  }
+}
+//用户头像大小
+.us-img {
+  width: 160px;
+  height: 166px;
+}
+
+.msg-img {
+  width: 73px;
+  height: 56px;
+}
+
+.mine-back {
+  margin-bottom: 100px;
+  div {
+    width: 100%;
+    line-height: 150px;
+  }
+}
+
+.user-info {
+  top: -387px;
+  .levan-box {
+    width: 272px;
+    height: 70px;
+    .leveLogo {
+      width: 70px;
+      height: 70px;
+      margin: 0 50px 0 20px;
+    }
+  }
+  .user-id {
+    transform: translateX(-10px);
+    border-bottom-right-radius: 20px;
+  }
+}
+.balance-icon {
+  padding: 260px 132px 43px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+}

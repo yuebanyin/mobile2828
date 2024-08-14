@@ -1,0 +1,16 @@
+// 未选中情况
+.nb-bg-none {
+  background: white;
+  // box-shadow: 0px 5px 0px #5db6b0, 0px 2px 1px 1px rgba(193, 196, 201, 0.3), 0px 9px 2px 1px rgba(193, 196, 201, 0.4);
+  // box-shadow: 0px 5px 0px #b9bfca, 0px 2px 1px 1px rgba(193, 196, 201, 0.3), 0px 9px 2px 1px rgba(193, 196, 201, 0.4);
+}
+
+// 选中情况
+.nb-bg-active {
+  /* 蓝黄规范/选中号码渐变色 */
+  // background: linear-gradient(180deg, #63ede6 13.31%, #e2fffd 89.87%);
+  background: var(--bx-gradient-number-focus-color);
+  /* 蓝黄/蓝黄选中号码阴影 */
+  // box-shadow: 0px 5px 0px #5db6b0, 0px 2px 1px 1px rgba(193, 196, 201, 0.3), 0px 9px 2px 1px rgba(193, 196, 201, 0.4);
+}
+
